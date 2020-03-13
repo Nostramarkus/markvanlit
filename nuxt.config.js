@@ -21,7 +21,7 @@ export default {
   */
   loading: { color: '#fff' },
   router: {
-    base: '/mvl/'
+    base: '/'
   },
   /*
   ** Global CSS
