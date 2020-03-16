@@ -87,11 +87,11 @@
                     check out the project on github.
                   </p>
                   <b-button
-                    @click="openUrlNewTab('https://designforinterior.com/')"
+                    @click="openUrlNewTab('https://wickedoneliners.nl/')"
                     icon-left="earth"
                   >Visit website</b-button>
                   <b-button
-                    @click="openUrlNewTab('https://github.com/Nostramarkus/dfi-ssr/')"
+                    @click="openUrlNewTab('https://github.com/Nostramarkus/wickedoneliners/')"
                     icon-left="github-circle"
                   >View on github</b-button>
                 </div>
