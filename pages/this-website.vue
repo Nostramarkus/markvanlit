@@ -6,10 +6,7 @@
           <div class="h-100 text-center parralax-home-top">
             <u-animate-container>
               <u-animate name="fadeInDown" duration="1s" :offset="0">
-                <img
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQEn-5DL8CnFHQ/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=kGzxPhtYvH9Uf3XZ8GWx1uLXM_pB8jGTIx6NmZk23ng"
-                  class="logo-img z-depth-2"
-                >
+                <img src="@/assets/img/mark-van-lit.jpg" class="logo-img z-depth-2">
               </u-animate>
             </u-animate-container>
           </div>
