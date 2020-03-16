@@ -1,6 +1,6 @@
-# mark
+# Mark
 
-> Mark frontend developer
+> Frontend developer
 
 ## Build Setup
 
