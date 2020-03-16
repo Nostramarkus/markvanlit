@@ -24,13 +24,10 @@
     </div>
     <div class="mark-content">
       <div class="container">
-        <section class="section pt-0">
+        <section id="aboutMe" class="section pt-5">
           <u-animate-container>
             <u-animate name="fadeIn" duration="1s" :offset="300">
-              <h2
-                id="aboutMe"
-                class="text-uppercase text-center font-weight-bold mb-4 pt-5"
-              >About me</h2>
+              <h2 class="text-uppercase text-center font-weight-bold mb-4 pt-0">About me</h2>
             </u-animate>
             <u-animate name="fadeIn" duration="1s" :offset="300">
               <hr>
@@ -311,14 +308,11 @@
       </div>
     </div>
 
-    <section class="mt-2 pb-5 mb-4">
+    <section id="projects" class="mt-2 pb-5 mb-4">
       <div class="container">
         <div class="row mt-4">
           <div class="col-md-12">
-            <h2
-              id="projects"
-              class="text-uppercase text-center font-weight-bold my-4 pt-5"
-            >Some projects</h2>
+            <h2 class="text-uppercase text-center font-weight-bold my-4 pt-5">Some projects</h2>
             <hr class="mark-hr">
           </div>
         </div>
@@ -389,66 +383,74 @@
     <div class="pb-5 pb-md-0" style="background-color: #f3f3f5;">
       <div class="testimonial-wrapper pt-3 pb-5">
         <section class="section py-5 mb-5 px-0">
-          <h2 class="text-uppercase text-center font-weight-bold my-4">Testimonials</h2>
-          <div class="container mb-0">
-            <div class="section py-0">
-              <hr class="mark-hr">
-            </div>
-          </div>
-          <div class="testimonial text-center">
-            <b-carousel
-              :arrow="true"
-              :arrow-hover="false"
-              animated="fade"
-              :autoplay="false"
-              icon-size="is-large"
-            >
-              <b-carousel-item>
-                <p class="mx-5 mx-md-0">
-                  <i class="fas fa-quote-left"></i> Mark and I worked together on a mobile application for Belvilla. He has a great experience and positive attitude, not fearing to tackle issues that arise. Being experienced both on the frontend and backend, he was able to provide quality solutions in no time.
-                  Working with him is an excellent experience and he is a great asset to every team.
-                </p>
-                <div class="mt-4">
-                  <h5>
-                    <strong>Eleftherios Psitopoulos</strong>
-                  </h5>
-                  <p>Front-end developer at Code Seed</p>
+          <u-animate-container>
+            <u-animate name="fadeIn" duration="1s" :offset="300">
+              <h2 class="text-uppercase text-center font-weight-bold my-4">Testimonials</h2>
+            </u-animate>
+          </u-animate-container>
+          <u-animate-container>
+            <u-animate name="fadeIn" duration="1s" :offset="300">
+              <div class="container mb-0">
+                <div class="section py-0">
+                  <hr class="mark-hr">
                 </div>
-                <div class="indigo-text">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-                </div>
-              </b-carousel-item>
-              <b-carousel-item>
-                <p class="mx-5 mx-md-0">
-                  <i class="fas fa-quote-left"></i> I had the privilege of working with Mark while I was in Belvilla. Mark is proactive, result oriented, responsible and technically sound employee and he is always ready to put all his energy and time to get the job done. He has an exceptional troubleshooting and analytical skill. He is a great asset to any company.
-                </p>
-                <div class="mt-4">
-                  <h5>
-                    <strong>Resham Agrawal</strong>
-                  </h5>
-                  <p>QAD Consultant at Medline Europe</p>
-                </div>
-                <div class="indigo-text">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-                </div>
-              </b-carousel-item>
-            </b-carousel>
-          </div>
+              </div>
+              <div class="testimonial text-center">
+                <b-carousel
+                  :arrow="true"
+                  :arrow-hover="false"
+                  animated="fade"
+                  :autoplay="false"
+                  icon-size="is-large"
+                >
+                  <b-carousel-item>
+                    <p class="mx-5 mx-md-0">
+                      <i class="fas fa-quote-left"></i> Mark and I worked together on a mobile application for Belvilla. He has a great experience and positive attitude, not fearing to tackle issues that arise. Being experienced both on the frontend and backend, he was able to provide quality solutions in no time.
+                      Working with him is an excellent experience and he is a great asset to every team.
+                    </p>
+                    <div class="mt-4">
+                      <h5>
+                        <strong>Eleftherios Psitopoulos</strong>
+                      </h5>
+                      <p>Front-end developer at Code Seed</p>
+                    </div>
+                    <div class="indigo-text">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </b-carousel-item>
+                  <b-carousel-item>
+                    <p class="mx-5 mx-md-0">
+                      <i class="fas fa-quote-left"></i> I had the privilege of working with Mark while I was in Belvilla. Mark is proactive, result oriented, responsible and technically sound employee and he is always ready to put all his energy and time to get the job done. He has an exceptional troubleshooting and analytical skill. He is a great asset to any company.
+                    </p>
+                    <div class="mt-4">
+                      <h5>
+                        <strong>Resham Agrawal</strong>
+                      </h5>
+                      <p>QAD Consultant at Medline Europe</p>
+                    </div>
+                    <div class="indigo-text">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </b-carousel-item>
+                </b-carousel>
+              </div>
+            </u-animate>
+          </u-animate-container>
         </section>
       </div>
     </div>
 
     <div class="container">
-      <section class="section mb-4">
-        <h2 id="contact" class="text-center text-uppercase font-weight-bold my-4 pt-5">Contact me</h2>
+      <section id="contact" class="section mb-4">
+        <h2 class="text-center text-uppercase font-weight-bold my-4 pt-5">Contact me</h2>
         <hr class="mark-hr">
         <div class="row">
           <div class="col-md-8 mb-5">
@@ -456,13 +458,17 @@
               <div class="col-md-6">
                 <div class="md-form mb-3">
                   <label>Your name</label>
-                  <b-input></b-input>
+                  <b-input v-model="naam"></b-input>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="md-form mb-3">
-                  <label class>Your email</label>
-                  <b-input type="email"></b-input>
+                  <label class>Your e-mail</label>
+                  <b-input
+                    v-model="email"
+                    :class="{'border border-danger': borderDangerEmail}"
+                    @keyup.native="borderDangerEmail = false"
+                  ></b-input>
                 </div>
               </div>
             </div>
@@ -470,7 +476,7 @@
               <div class="col-md-12">
                 <div class="md-form mb-3">
                   <label class>Subject</label>
-                  <b-input></b-input>
+                  <b-input v-model="onderwerp"></b-input>
                 </div>
               </div>
             </div>
@@ -478,12 +484,21 @@
               <div class="col-md-12">
                 <div class="md-form mb-3">
                   <label for="form76" class>Your message</label>
-                  <b-input type="textarea" rows="8"></b-input>
+                  <b-input v-model="bericht" type="textarea" rows="8"></b-input>
                 </div>
               </div>
             </div>
             <div class="mt-3">
-              <b-button>Send</b-button>
+              <b-button @click="sendContact()">
+                <i class="far fa-paper-plane"></i>&nbsp; Send
+              </b-button>
+              <b-modal :active.sync="contactSendModal">
+                <section class="modal-card-body">
+                  <h4 class="mb-4">Thanks for contacting me!</h4>
+                  <p>I usually reply in a few days</p>
+                  <b-button class="mt-3" @click="contactSendModal = false">Close</b-button>
+                </section>
+              </b-modal>
             </div>
           </div>
           <div class="col-md-4">
@@ -514,6 +529,55 @@ export default {
   name: "home",
   components: {
     Parallax
+  },
+  data() {
+    return {
+      naam: "",
+      email: "",
+      onderwerp: "",
+      bericht: "",
+      contactSendModal: false,
+      borderDangerEmail: false
+    };
+  },
+  methods: {
+    sendContact() {
+      var deze = this;
+      this.$axios
+        .get("https://www.markvanlit.nl/_api/contact.php", {
+          params: {
+            naam: this.naam,
+            email: this.email,
+            onderwerp: this.onderwerp,
+            bericht: this.bericht
+          }
+        })
+        .then(function(res) {
+          if (res.data.success) {
+            deze.contactSendModal = true;
+            deze.naam = "";
+            deze.email = "";
+            deze.onderwerp = "";
+            deze.bericht = "";
+          } else {
+            res.data.errorArr.forEach(error =>
+              deze.$buefy.notification.open({
+                message: error.errorMsg,
+                type: "is-danger",
+                duration: 4000
+              })
+            );
+            deze.borderDangerEmail = true;
+          }
+        })
+        .catch(function(error) {
+          deze.$buefy.notification.open({
+            message: error.status,
+            type: "is-danger",
+            duration: 4000
+          });
+        });
+    }
   }
 };
 </script>

@@ -20,7 +20,7 @@
     <div class="mark-content">
       <div class="container">
         <section class="section mb-5 pt-0">
-          <nuxt-link to="/" class="mark-terug mt-2">
+          <nuxt-link to="/#projects" class="mark-terug mt-3">
             <i class="fas fa-chevron-left"></i>&nbsp;Back
           </nuxt-link>
           <u-animate-container>
@@ -87,15 +87,11 @@
                     check out the project on github.
                   </p>
                   <b-button
-                    tag="a"
-                    href="https://designforinterior.com/"
-                    target="_blank"
+                    @click="openUrlNewTab('https://designforinterior.com/')"
                     icon-left="earth"
                   >Visit website</b-button>
                   <b-button
-                    tag="a"
-                    href="https://github.com/Nostramarkus/dfi-ssr"
-                    target="_blank"
+                    @click="openUrlNewTab('https://github.com/Nostramarkus/dfi-ssr/')"
                     icon-left="github-circle"
                   >View on github</b-button>
                 </div>
@@ -157,6 +153,10 @@ export default {
     },
     getImgUrl(value) {
       return this.items[value].image;
+    },
+    openUrlNewTab(url) {
+      var win = window.open(url, "_blank");
+      win.focus();
     }
   }
 };

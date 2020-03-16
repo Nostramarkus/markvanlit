@@ -36,7 +36,8 @@ export default {
   */
   plugins: [
     { src: '~/plugins/vue-parallaxy.js', mode: 'client' },
-    { src: '~/plugins/vue-wow.js' }
+    { src: '~/plugins/vue-wow.js' },
+    { src: '~/plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules

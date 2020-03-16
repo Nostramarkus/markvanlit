@@ -71,6 +71,7 @@ a:hover{
 
 .button, .input, .taginput .taginput-container.is-focusable, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
    border-radius: 0px;
+   font-weight: 300;
 }
 
 .navbar-menu {
@@ -79,13 +80,13 @@ a:hover{
 }
 
 @media (min-width: 768px) {
-.mark-grey-scale{
-   filter: grayscale(100%);
-   transition: all .2s linear;
-}
-.mark-grey-scale:hover{
-   filter: grayscale(0%);
-}
+   .mark-grey-scale{
+      filter: grayscale(100%);
+      transition: all .2s linear;
+   }
+   .mark-grey-scale:hover{
+      filter: grayscale(0%);
+   }
 }
 
 
@@ -378,7 +379,8 @@ a:hover{
 }
 
 .btn-secondary {
-   background: #3f51b5!important;
+   /*background: #3f51b5!important;*/
+   background: #8e459a!important;
 }
 
 a.waves-effect, a.waves-light {
@@ -423,8 +425,10 @@ label {
 .logo-img{
    border-radius: 50%;
    border: 8px solid white;
+   background-color: white;
    margin-top: 4.5rem;
    width: 250px;
+   height: 250px;
 }
 
 .blue-grey-text {
@@ -433,8 +437,11 @@ label {
  .mark-img {
    border-radius: 50%;
    border: 8px solid white;
+   background-color: white;
    margin-top: 7.5rem;
    margin-bottom: 4rem;
+   width:230px;
+   height:230px;
  }
  .mark-van-lit {
    font-size: 3.4rem;
@@ -667,12 +674,21 @@ label {
      max-width: 490px;
    }
    .testimonial .carousel-arrow .icon.has-icons-left {
-     left: -10rem;
+     left: -7rem;
    }
    .testimonial .carousel-arrow .icon.has-icons-right {
-     right: -10rem;
+     right: -7rem;
    }
  }
+ @media (min-width: 992px){
+   .testimonial .carousel-arrow .icon.has-icons-left {
+      left: -10rem;
+    }
+    .testimonial .carousel-arrow .icon.has-icons-right {
+      right: -10rem;
+    }
+ }
+
  .mark-diagonaal-top {
    -moz-transform: scale(1, -1);
    -o-transform: scale(1, -1);
@@ -789,7 +805,7 @@ color: #212529;
 
 .mark-to-top {
    position: fixed;
-   bottom: 20px;
+   bottom: 35px;
    right: 20px;
    width: 40px;
    height: 40px;

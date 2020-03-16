@@ -5,31 +5,22 @@
         <b-navbar-item tag="div">
           <div class="buttons">
             <b-button
+              @click="gotoRoute('/#contact')"
               type="is-light"
               class="mark-nav-contact-btn"
               outlined
-              v-scroll-to="{
-                el: '#contact',
-                offset: -50
-              }"
+              v-scroll-to="'#contact'"
             >Contact</b-button>
           </div>
         </b-navbar-item>
       </template>
       <template slot="start">
-        <b-navbar-item tag="router-link" to="/" v-scroll-to="'body'">Home</b-navbar-item>
+        <b-navbar-item @click="gotoRoute('/')" v-scroll-to="'body'">Home</b-navbar-item>
         <b-navbar-item
-          v-scroll-to="{
-            el: '#aboutMe',
-            offset: -50
-          }"
+          @click="gotoRoute('/#aboutMe')"
+          v-scroll-to="{ el:'#aboutMe', offset:-50}"
         >About me</b-navbar-item>
-        <b-navbar-item
-          v-scroll-to="{
-            el: '#projects',
-            offset: -50
-          }"
-        >Work</b-navbar-item>
+        <b-navbar-item @click="gotoRoute('/#projects')" v-scroll-to="'#projects'">Work</b-navbar-item>
       </template>
     </b-navbar>
     <!-- -->
@@ -43,7 +34,6 @@
               <a
                 href="https://www.linkedin.com/in/mark-van-lit-33509a16/"
                 target="_blank"
-                type="button"
                 class="btn-floating btn-secondary"
               >
                 <i class="fab fa-linkedin"></i>
@@ -51,7 +41,6 @@
               <a
                 href="https://www.facebook.com/markvanlit"
                 target="_blank"
-                type="button"
                 class="btn-floating btn-secondary"
               >
                 <i class="fab fa-facebook-f"></i>
@@ -105,6 +94,11 @@ export default {
       var pixels = 350;
       //window.outerWidth > 575 ? (pixels = 400) : (pixels = 200);
       window.pageYOffset > pixels ? (this.top = false) : (this.top = true);
+    },
+    gotoRoute(route) {
+      if ($nuxt.$route.path !== "/") {
+        this.$router.push(route);
+      }
     }
   }
 };

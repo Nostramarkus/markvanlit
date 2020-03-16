@@ -20,7 +20,7 @@
     <div class="mark-content">
       <div class="container">
         <section class="section mb-5 pt-0">
-          <nuxt-link to="/" class="mark-terug mt-2">
+          <nuxt-link to="/#projects" class="mark-terug mt-3">
             <i class="fas fa-chevron-left"></i>&nbsp;Back
           </nuxt-link>
           <u-animate-container>
@@ -80,31 +80,29 @@
                     nice item that you can buy or create an account and sell your items.
                   </p>
                   <b-button
-                    tag="a"
-                    href="https://designforinterior.com/"
-                    target="_blank"
+                    @click="openUrlNewTab('https://designforinterior.com/')"
                     icon-left="earth"
                   >Visit website</b-button>
 
                   <hr class="mt-5">
                   <div class="d-flex justify-content-start mt-5">
-                    <h4 class="text-center text-uppercase mb-3">Vue + Nuxt version</h4>
+                    <h4 class="text-center text-uppercase mb-3">Nuxt version</h4>
                   </div>
-                  <p
-                    class="grey-text mb-3"
-                    align="justify"
-                  >For demo purposes i recreated the website with Vue.js and Nuxt.js. This provides Server Side Rendering (SSR) techniques and great SEO control</p>
+                  <p class="grey-text mb-3" align="justify">
+                    For demo purposes i recreated the website with and
+                    <a
+                      href="https://nuxtjs.org/"
+                      target="_blank"
+                      class="link grey-text"
+                    >Nuxt&nbsp;js</a>. This provides Server Side Rendering (SSR) techniques and great SEO control
+                  </p>
                   <b-button
-                    tag="a"
-                    href="http://vanlitmedia.nl/dfi-ssr/"
-                    target="_blank"
+                    @click="openUrlNewTab('http://vanlitmedia.nl/dfi-ssr/')"
                     icon-left="vuejs"
                     class="mb-3 mb-sm-0"
-                  >Vue + Nuxt version</b-button>
+                  >Nuxt version</b-button>
                   <b-button
-                    tag="a"
-                    href="https://github.com/Nostramarkus/dfi-ssr"
-                    target="_blank"
+                    @click="openUrlNewTab('https://github.com/Nostramarkus/dfi-ssr/')"
                     icon-left="github-circle"
                   >View on github</b-button>
 
@@ -112,21 +110,21 @@
                   <div class="d-flex justify-content-start mt-5">
                     <h4 class="text-center text-uppercase mb-3">React version</h4>
                   </div>
-                  <p
-                    class="grey-text mb-3"
-                    align="justify"
-                  >For demo purposes i recreated the website with React.js. The project is deployed as a Single Page Application (SPA)</p>
+                  <p class="grey-text mb-3" align="justify">
+                    For demo purposes i recreated the website with
+                    <a
+                      href="https://reactjs.org/"
+                      target="_blank"
+                      class="link grey-text"
+                    >React&nbsp;js</a>. The project is deployed as a Single Page Application (SPA)
+                  </p>
                   <b-button
-                    tag="a"
-                    href="http://vanlitmedia.nl/dfi-react/"
-                    target="_blank"
+                    @click="openUrlNewTab('http://vanlitmedia.nl/dfi-react/')"
                     icon-left="react"
                     class="mb-3 mb-sm-0"
                   >React version</b-button>
                   <b-button
-                    tag="a"
-                    href="https://github.com/Nostramarkus/dfi-react"
-                    target="_blank"
+                    @click="openUrlNewTab('https://github.com/Nostramarkus/dfi-react')"
                     icon-left="github-circle"
                   >View on github</b-button>
                 </div>
@@ -189,6 +187,10 @@ export default {
     },
     getImgUrl(value) {
       return this.items[value].image;
+    },
+    openUrlNewTab(url) {
+      var win = window.open(url, "_blank");
+      win.focus();
     }
   }
 };

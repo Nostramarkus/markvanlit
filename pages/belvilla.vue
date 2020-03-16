@@ -19,7 +19,7 @@
     <div class="mark-content">
       <div class="container">
         <section class="section mb-5 pt-0">
-          <nuxt-link to="/" class="mark-terug mt-2">
+          <nuxt-link to="/#projects" class="mark-terug mt-3">
             <i class="fas fa-chevron-left"></i>&nbsp;Back
           </nuxt-link>
           <u-animate-container>

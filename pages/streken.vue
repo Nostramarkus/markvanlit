@@ -20,7 +20,7 @@
     <div class="mark-content">
       <div class="container">
         <section class="section mb-5 pt-0">
-          <nuxt-link to="/" class="mark-terug mt-2">
+          <nuxt-link to="/#projects" class="mark-terug mt-3">
             <i class="fas fa-chevron-left"></i>&nbsp;Back
           </nuxt-link>
           <u-animate-container>
@@ -79,9 +79,7 @@
                     Feel free to visit the webshop and order some beers from your couch, your order will be delivered to your doorstep.
                   </p>
                   <b-button
-                    tag="a"
-                    href="https://strekenbreda.nl/bieren"
-                    target="_blank"
+                    @click="openUrlNewTab('https://strekenbreda.nl/bieren')"
                     icon-left="earth"
                   >Visit webshop</b-button>
                 </div>
@@ -143,6 +141,10 @@ export default {
     },
     getImgUrl(value) {
       return this.items[value].image;
+    },
+    openUrlNewTab(url) {
+      var win = window.open(url, "_blank");
+      win.focus();
     }
   }
 };
