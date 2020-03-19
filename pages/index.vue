@@ -489,7 +489,7 @@
               </div>
             </div>
             <div class="mt-3">
-              <b-button @click="sendContact()">
+              <b-button @click="sendContact">
                 <i class="far fa-paper-plane"></i>&nbsp; Send
               </b-button>
               <b-modal :active.sync="contactSendModal">
@@ -543,24 +543,27 @@ export default {
   methods: {
     sendContact() {
       var deze = this;
-      this.$axios
-        .get("https://www.markvanlit.nl/_api/contact.php", {
-          params: {
-            naam: this.naam,
-            email: this.email,
-            onderwerp: this.onderwerp,
-            bericht: this.bericht
-          }
+      fetch("https://markvanlit.nl/_api/contact.php", {
+        method: "POST",
+        body: JSON.stringify({
+          naam: this.naam,
+          email: this.email,
+          onderwerp: this.onderwerp,
+          bericht: this.bericht
         })
-        .then(function(res) {
-          if (res.data.success) {
+      })
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          if (data.success) {
             deze.contactSendModal = true;
             deze.naam = "";
             deze.email = "";
             deze.onderwerp = "";
             deze.bericht = "";
           } else {
-            res.data.errorArr.forEach(error =>
+            data.errorArr.forEach(error =>
               deze.$buefy.notification.open({
                 message: error.errorMsg,
                 type: "is-danger",
@@ -569,13 +572,6 @@ export default {
             );
             deze.borderDangerEmail = true;
           }
-        })
-        .catch(function(error) {
-          deze.$buefy.notification.open({
-            message: error.status,
-            type: "is-danger",
-            duration: 4000
-          });
         });
     }
   }

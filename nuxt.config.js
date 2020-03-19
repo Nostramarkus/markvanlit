@@ -59,13 +59,33 @@ export default {
     '@nuxtjs/dotenv',
     //https://vue-scrollto.netlify.com/docs/#installing
     'vue-scrollto/nuxt',
+    //'@nuxtjs/proxy'
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+    /*
+    baseURL: `https://markvanlit.nl/_api`,
+    withCredentials: false,
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    }
+    */
   },
+  /*
+  proxy: {
+    '/api': {
+      target: 'https://markvanlit.nl/_api',
+      pathRewrite: {
+        '^/api': '/'
+      }
+    },
+    changeOrigin: true
+  },
+  */
   /*
   ** Build configuration
   */
