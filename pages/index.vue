@@ -440,6 +440,24 @@
                       <i class="fas fa-star-half-alt"></i>
                     </div>
                   </b-carousel-item>
+                  <b-carousel-item>
+                    <p class="mx-5 mx-md-0">
+                      <i class="fas fa-quote-left"></i> Mark is een echte vakman; gedreven webdeveloper. Inventariseert goed wat wensen zijn en weet dit te vertalen naar een mooie, strakke conceptuele webuitwerking. Daarbij denkt hij graag mee in oplossingen en mogelijkheden, en streeft naar perfectie. Hierbij schuwt hij geen nieuwe ICT uitdagingen.
+                    </p>
+                    <div class="mt-4">
+                      <h5>
+                        <strong>Susan Klijsen - van Elteren</strong>
+                      </h5>
+                      <p>Eigenaresse Design For Interior</p>
+                    </div>
+                    <div class="indigo-text">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </b-carousel-item>
                 </b-carousel>
               </div>
             </u-animate>
