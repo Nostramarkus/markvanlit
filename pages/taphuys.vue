@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -73,17 +73,15 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Website voor 't Taphuys</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3">
                     't Taphuys is a bar in the city centrum of Tilburg, Arnhem and Utrecht. They have a unique
                     concept with their "Tapwand", where you can tap your own beers from a wall with over 100 beertaps.
                     This works with a tapcard that you can get at 't Taphuys. You can add credit on your tapcard and
                     when you get beer from a tap you pay by centiliter.
                     <br>
                     <br>
-                    The website is Server Side Rendered and hydrates into a Single Page Application as soon a visitor lands on any page.
-                    The website has strong SEO characteristics for great Google search results.
                     The frontend is created with
-                    <a href="https://nuxtjs.org/" target="_blank" class="link">Nuxt.js</a>.
+                    <a href="https://nuxt.com/" target="_blank" class="link">Nuxt</a>.
                     The backend uses two different api's, one or the content and one for the beers inventory.
                   </p>
                   <b-button
@@ -96,7 +94,7 @@
                 <nuxt-link to="/belvilla" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/oyo-vacation-homes" class="mark-other-project float-right">
+                <nuxt-link to="/beddorama" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

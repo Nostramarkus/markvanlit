@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">An old project</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3">
                     This is one of my older projects that I've choose to display. I made this project in 2007, fancy front-end frameworks like
                     Vue, React or Angular did not even exist in this time. Wordpress was in these days a good option to build a website so I've created
                     a custom Wordpress template for Bresam Heftrucks.
@@ -91,6 +91,10 @@
               <div>
                 <nuxt-link to="/dancenter" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
+                </nuxt-link>
+                <nuxt-link to="/this-website" class="mark-other-project float-right">
+                  Next
+                  <i class="fas fa-chevron-right"></i>
                 </nuxt-link>
               </div>
             </u-animate>

@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -73,44 +73,28 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A whitelabel My Account</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3">
                     <a
                       href="https://www.dancenter.com/"
                       target="_blank"
                       class="link"
                     >Dancenter</a> is a vacation rental company based in Denmark. Dancenter is owned bij
-                    <a
-                      href="https://oyovacationhomes.com/"
-                      target="_blank"
-                      class="link"
-                    >OYO&nbsp;Vacation&nbsp;Homes</a>, besides Dancenter they own other vacation rental company's like
-                    <a
-                      href="https://www.belvilla.nl/"
-                      target="_blank"
-                      class="link"
-                    >Belvilla</a>,
-                    <a
-                      href="https://www.topictravel.nl/"
-                      target="_blank"
-                      class="link"
-                    >Topic Travel</a>,
-                    <a
-                      href="https://www.villaxl.com/"
-                      target="_blank"
-                      class="link"
-                    >Villa XL</a> and
-                    <a
-                      href="https://oyovacationhomes.com/our-brands-2/"
-                      target="_blank"
-                      class="link"
-                    >more</a>. Because all of these brands are working with the same back-end system
+                    OYO&nbsp;Vacation&nbsp;Homes, besides Dancenter they own other vacation rental company's like
+                   Belvilla,
+                   Topic Travel,
+                    Villa XL and
+                    more.
+                    <br><br>
+                    Because all of these brands are working with the same back-end system
                     i've created a white label My Account environment with
                     <a
                       href="https://vuejs.org/"
                       target="_blank"
                       class="link"
-                    >Vue&nbsp;js</a>
-                    where customers can view, change and pay their bookings. The My Account get's dressed for the brand
+                    >Vue</a>
+                    where customers can view, change and pay their bookings. 
+                    <br><br>
+                    The My Account get's dressed for the brand
                     at runtime by looking at the URL where it's loaded. In my projects on this website you can also find
                     the
                     <nuxt-link to="/belvilla" class="link">Belvilla&nbsp;version</nuxt-link>&nbsp;of this My Account environment.
@@ -118,12 +102,8 @@
                 </div>
               </div>
               <div>
-                <nuxt-link to="/beddorama" class="mark-other-project">
+                <nuxt-link to="/renie-lamers" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
-                </nuxt-link>
-                <nuxt-link to="/this-website" class="mark-other-project float-right">
-                  Next
-                  <i class="fas fa-chevron-right"></i>
                 </nuxt-link>
               </div>
             </u-animate>

@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -73,59 +73,28 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Enterprise system</h4>
                   </div>
-                  <p class="mb-3" align="justify">
-                    <a
-                      href="https://oyovacationhomes.com/"
-                      target="_blank"
-                      class="link"
-                    >OYO Vacation Homes</a> is one of the leading vacation rental companies in Europe. They are the
+                  <p class="mb-3">
+                    OYO Vacation Homes is one of the leading vacation rental companies in Europe. They are the
                     organization behind
-                    <a
-                      href="https://belvilla.nl"
-                      target="_blank"
-                      class="link"
-                    >Belvilla</a>,
-                    <a
-                      href="https://www.dancenter.com/"
-                      target="_blank"
-                      class="link"
-                    >Dancenter</a>,
-                    <a
-                      href="https://www.topictravel.nl/"
-                      target="_blank"
-                      class="link"
-                    >Topic&nbsp;Travel</a>,
-                    <a
-                      href="https://www.villaxl.com/"
-                      target="_blank"
-                      class="link"
-                    >Villa&nbsp;XL</a>,
-                    <a
-                      href="https://www.ardennes-relais.be/"
-                      target="_blank"
-                      class="link"
-                    >Ardennes&nbsp;Relais</a>,
-                    <a
-                      href="https://www.vacation-apartments.com/"
-                      target="_blank"
-                      class="link"
-                    >Traum</a>,
-                    <a
-                      href="https://www.danland.dk/"
-                      target="_blank"
-                      class="link"
-                    >DanLand</a> and
-                    <a
-                      href="https://www.admiralstrand.de/"
-                      target="_blank"
-                      class="link"
-                    >Admiral&nbsp;Strand</a>. With a dedicated team of 6 we work on the OYO Vacation Home enterprise system that
+                    Belvilla,
+                    Dancenter,
+                    Topic&nbsp;Travel,
+                    Villa&nbsp;XL,
+                    Ardennes&nbsp;Relais,
+                    Traum,
+                    DanLand and
+                    Admiral&nbsp;Strand. 
+                    <br><br>
+                    With a dedicated team of 6 people we work on the OYO Vacation Home enterprise system that
                     feeds content to the websites, registers customer bookings and handles financial processes of all brands.
                   </p>
                 </div>
               </div>
               <div>
-                <nuxt-link to="/belvilla" class="mark-other-project float-right">
+                <nuxt-link to="/design-for-interior" class="mark-other-project">
+                  <i class="fas fa-chevron-left"></i>&nbsp;Prev.
+                </nuxt-link>
+                <nuxt-link to="/renie-lamers" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

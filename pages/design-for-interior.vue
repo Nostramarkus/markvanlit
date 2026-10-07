@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -73,22 +73,23 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Brand creation</h4>
                   </div>
-                  <p class="mb-3" align="justify">
-                    Design For Interior is a online marketplace focussed on interior design items. I've created this
-                    brand from scratch including logo, company visual styleguide and more. The site has a cool feature where
+                  <p class="mb-3">
+                    Design For Interior is a online marketplace focussed on interior design items. 
+                    <br><br>
+                    I've created the logo, company visual styleguide, website and more. The site has a cool feature where
                     buyers can start a live chat with the sellers. Feel free to visit the site and maybe you will find a
                     nice item that you can buy or create an account and sell your items.
                   </p>
                   <b-button
                     @click="openUrlNewTab('https://designforinterior.com/')"
                     icon-left="earth"
-                  >Visit website</b-button>
+                  >www.designforinterior.com</b-button>
 
-                  <hr class="mt-5">
+                  <!-- <hr class="mt-5">
                   <div class="d-flex justify-content-start mt-5">
                     <h4 class="text-center text-uppercase mb-3">Nuxt version</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                   <p class="mb-3">
                     For demo purposes i recreated the website with and
                     <a
                       href="https://nuxtjs.org/"
@@ -126,15 +127,15 @@
                   <b-button
                     @click="openUrlNewTab('https://github.com/Nostramarkus/dfi-react')"
                     icon-left="github-circle"
-                  >View on github</b-button>
+                  >View on github</b-button> -->
                 </div>
               </div>
 
               <div>
-                <nuxt-link to="/belvilla" class="mark-other-project">
+                <nuxt-link to="/beddorama" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/wicked-oneliners" class="mark-other-project float-right">
+                <nuxt-link to="/oyo-vacation-homes" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

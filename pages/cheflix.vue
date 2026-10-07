@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -71,18 +71,16 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">Learn to cook from the world's best chefs</h4>
+                    <h4 class="text-left text-uppercase mb-3">Learn to cook from the world's best chefs</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3" >
                     Learn to cook by video masterclasses from the very best Michelin chefs with the best recipes anyone can make.
                     The best chefs in the world teach you how to become a master chef at home.
                     <br>
                     <br>
-                    The website has a multilanguage feature, it is Server Side Rendered and hydrates into a Single Page Application as soon a visitor lands on any page.
-                    The website has strong SEO characteristics for some good Google search results.
-                    The frontend is created with
-                    <a href="https://nuxtjs.org/" target="_blank" class="link">Nuxt.js</a>.
-                    The backend is created with
+                     I've created the front-end with
+                    <a href="https://nuxt.com/" target="_blank" class="link">Nuxt</a>
+                    and the back-end with
                     <a href="https://www.contentful.com/" target="_blank" class="link">Contentful</a> headless CMS.
                     The useraccount and video content are hosted via
                     <a href="https://audienceplayer.nl/" target="_blank" class="link">AudiencePlayer</a> connected with a
@@ -98,7 +96,7 @@
                 <nuxt-link to="/partou" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/streken" class="mark-other-project float-right">
+                <nuxt-link to="/belvilla" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

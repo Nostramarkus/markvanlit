@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -44,7 +44,7 @@
                     >
                       <b-carousel-item v-for="(item, i) in items" :key="i">
                         <a @click="switchGallery(true)" class="image mark-work-image mb-3">
-                          <img :src="item.image" alt="Design For Interior">
+                          <img :src="item.image" alt="Beddorama">
                         </a>
                       </b-carousel-item>
                       <span
@@ -62,7 +62,7 @@
                           <img
                             :draggable="false"
                             :src="getImgUrl(props.i)"
-                            alt="Design For Interior"
+                            alt="Beddorama"
                           >
                         </figure>
                       </template>
@@ -71,23 +71,26 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">A Wordpress template</h4>
+                    <h4 class="text-center text-uppercase mb-3">Nuxt UI and Storyblok</h4>
                   </div>
-                  <p class="mb-3" align="justify">
-                    Beddorama is a store that specializes in sleep comfort. I've made a custom Beddorama Wordpress template
-                    for their website
+                  <p class="mb-3">
+                    Beddorama is a store in Made that specializes in sleep comfort. I've rebuilt their website from the
+                    ground up with Nuxt UI, with Storyblok as the CMS, together with a new logo. The shop manages its own
+                    boxsprings, bed frames, wardrobes, mattresses and recliners in Storyblok, highlights its deals on a
+                    separate page and puts the latest brochure on the homepage for download. The site works just as well
+                    on a phone as on a desktop.
                   </p>
                   <b-button
-                    @click="openUrlNewTab('http://www.beddorama.nl/')"
+                    @click="openUrlNewTab('https://www.beddorama.nl/')"
                     icon-left="earth"
-                  >Visit website</b-button>
+                  >www.beddorama.nl</b-button>
                 </div>
               </div>
               <div>
-                <nuxt-link to="/streken" class="mark-other-project">
+                <nuxt-link to="/taphuys" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/dancenter" class="mark-other-project float-right">
+                <nuxt-link to="/design-for-interior" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

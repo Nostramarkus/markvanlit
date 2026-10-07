@@ -37,7 +37,7 @@
                     <h4 class="text-center text-uppercase mb-5">Enjoying the vue</h4>
                   </div>
                   <p class="mb-3" align="left">
-                    I am a passionate web focussed front-end developer with a background in graphic design. With over 15 years of experience I love to create anything from a small custom website to high-performance scalable web applications.
+                    I am a passionate web focussed front-end developer with a background in graphic design. With over 20 years of experience I love to create anything from a small custom website to high-performance scalable web applications.
                     <br>
                     <br>I'm a big fan of the
                     <a
@@ -106,14 +106,6 @@
                       <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Javascript</p>
                     </a>
                     <a
-                      href="https://vuejs.org/"
-                      target="_blank"
-                      class="col-6 col-md-3 mark-skill"
-                    >
-                      <img src="@/assets/img/vue.svg" class="mark-skill-svg py-1">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt">Vue</p>
-                    </a>
-                    <a
                       href="https://nuxt.com/"
                       target="_blank"
                       class="col-6 col-md-3 mark-skill"
@@ -121,6 +113,15 @@
                       <img src="@/assets/img/nuxt.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">Nuxt</p>
                     </a>
+                    <a
+                      href="https://vuejs.org/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
+                      <img src="@/assets/img/vue.svg" class="mark-skill-svg py-1">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt">Vue</p>
+                    </a>
+                    
                     <a
                       href="https://reactjs.org/"
                       target="_blank"
@@ -330,24 +331,34 @@
             <img src="@/assets/img/project-villa-for-you.svg" alt="Villa for You" class="img-fluid">
           </div>
         </nuxt-link>
+        <nuxt-link to="/myvilla" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-myvilla.svg" alt="MyVilla" class="img-fluid">
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/widgets" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-widgets.svg" alt="Booking widgets" class="img-fluid">
+          </div>
+        </nuxt-link>
         <nuxt-link to="/partou" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/wvhj.png" alt="Partou" class="wvhj">
             <img src="@/assets/img/project-partou.svg" alt="Partou" class="img-fluid">
           </div>
         </nuxt-link>
+      </div>
+      <div class="row ml-5 mr-5 mt-2">
         <nuxt-link to="/cheflix" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-cheflix.svg" alt="Cheflix" class="img-fluid">
           </div>
         </nuxt-link>
-        <nuxt-link to="/streken" class="col-lg-3 col-md-6">
+        <!-- <nuxt-link to="/streken" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-streken.svg" alt="Streken" class="img-fluid">
           </div>
-        </nuxt-link>
-      </div>
-      <div class="row ml-5 mr-5 mt-2">
+        </nuxt-link> -->
         <nuxt-link to="/belvilla" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-belvilla.svg" alt="Belvilla" class="img-fluid">
@@ -358,28 +369,31 @@
             <img src="@/assets/img/project-taphuys.svg" alt="'t Taphuys" class="img-fluid">
           </div>
         </nuxt-link>
-        <nuxt-link to="/oyo-vacation-homes" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-oyo-vacation-homes.svg" alt="OYO Vacation Homes" class="img-fluid">
-          </div>
-        </nuxt-link>
-        <nuxt-link to="/design-for-interior" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-design-for-interior.svg" alt="Design for Interior" class="img-fluid">
-          </div>
-        </nuxt-link>
-      </div>
-      <div class="row ml-5 mr-5 mt-2">
-        <nuxt-link to="/wicked-oneliners" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-wicked-oneliners.svg" alt="Wicked Oneliners" class="img-fluid">
-          </div>
-        </nuxt-link>
         <nuxt-link to="/beddorama" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-beddorama.svg" alt="Beddorama" class="img-fluid">
           </div>
         </nuxt-link>
+        
+      </div>
+      <div class="row ml-5 mr-5 mt-2">
+        
+        <nuxt-link to="/design-for-interior" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-design-for-interior.svg" alt="Design for Interior" class="img-fluid">
+          </div>
+        </nuxt-link>
+        <!-- <nuxt-link to="/wicked-oneliners" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-wicked-oneliners.svg" alt="Wicked Oneliners" class="img-fluid">
+          </div>
+        </nuxt-link> -->
+        <nuxt-link to="/oyo-vacation-homes" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-oyo-vacation-homes.svg" alt="OYO Vacation Homes" class="img-fluid">
+          </div>
+        </nuxt-link>
+        
         <nuxt-link to="/renie-lamers" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-renie-lamers.svg" alt="Renie Lamers" class="img-fluid">
@@ -392,11 +406,12 @@
         </nuxt-link>
       </div>
       <div class="row ml-5 mr-5 mt-2">
-        <nuxt-link to="/bresam-heftrucks" class="col-lg-3 col-md-6">
+        
+        <!-- <nuxt-link to="/bresam-heftrucks" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-bresam-heftrucks.jpg" alt="Bresam Heftrucks" class="img-fluid">
           </div>
-        </nuxt-link>
+        </nuxt-link> -->
       </div>
     </section>
 

@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A portfolio website</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3">
                     Renie Lamers is a freelance illustrator creating wedding cards, infographics and other illustrations.
                     She wanted to have a portfolio website where she could display her work so whe came in contact with me.
                     <br>
@@ -94,7 +94,7 @@
                 </div>
               </div>
               <div>
-                <nuxt-link to="/beddorama" class="mark-other-project">
+                <nuxt-link to="/oyo-vacation-homes" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
                 <nuxt-link to="/dancenter" class="mark-other-project float-right">

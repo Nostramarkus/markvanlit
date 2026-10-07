@@ -6,7 +6,7 @@
           <div class="h-100 text-center parralax-home-top">
             <u-animate-container>
               <u-animate name="fadeInDown" duration="1s" :offset="0">
-                <img src="@/assets/img/mark-van-lit.jpg" class="logo-img z-depth-2">
+                <img src="@/assets/img/myvilla.svg" class="logo-img z-depth-2">
               </u-animate>
             </u-animate-container>
           </div>
@@ -25,7 +25,7 @@
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
-              <h2 class="text-uppercase text-center font-weight-bold mb-4 pt-5">This website</h2>
+              <h2 class="text-uppercase text-center font-weight-bold mb-4 pt-5">MyVilla</h2>
             </u-animate>
             <u-animate name="fadeIn" duration="2s">
               <hr>
@@ -44,13 +44,13 @@
                     >
                       <b-carousel-item v-for="(item, i) in items" :key="i">
                         <a @click="switchGallery(true)" class="image mark-work-image mb-3">
-                          <img :src="item.image" alt="Design For Interior">
+                          <img :src="item.image" alt="MyVilla">
                         </a>
                       </b-carousel-item>
                       <span
                         v-if="gallery"
                         @click="switchGallery(false)"
-                        class="modal-close is-large"
+                        class="modal-close is-large bg-secondary"
                       />
                       <template
                         slot="indicators"
@@ -62,7 +62,7 @@
                           <img
                             :draggable="false"
                             :src="getImgUrl(props.i)"
-                            alt="Design For Interior"
+                            alt="MyVilla"
                           >
                         </figure>
                       </template>
@@ -71,29 +71,36 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">A personal challenge</h4>
+                    <h4 class="text-center text-uppercase mb-3">A portal for home owners</h4>
                   </div>
-                  <p class="mb-3">
-                    This website has been deployed as a static website that hydrates into a Single Page Application (SPA)
-                    when a user lands on a page. Smart code prefetching is done to keep the load balance to a minimum and the
-                    user experience to a maximum. I've used
+                  <p class="mb-3" >
                     <a
-                      href="https://nuxtjs.org/"
+                      href="https://myvilla.villaforyou.com/"
                       target="_blank"
                       class="link"
-                    >Nuxt&nbsp;js</a> to create this website. Was this really necessary for a website like this one? Maybe not. Is this awesome? For sure!
-                    I've challenged myself to create this website in one weekend from scratch... That turned out be be a week, but never the less
-                    i'm happy with the result. Feel free to look into my code of this website in my Github repository.
+                    >MyVilla</a> is the owner portal of
+                    <nuxt-link to="/villa-for-you" class="link">Villa&nbsp;for&nbsp;You</nuxt-link>.
+                    I've built it with Nuxt, Tailwind CSS and Pinia.
+                    <br><br>
+                    Owners use it to follow their bookings, add their own bookings in a booking calendar, manage prices and 
+                    accommodation details, reply to guest reviews, view payments and documents and export their data to Excel or PDF.
+                    <br><br>
+                    New owners go through an onboarding wizard, and with a few clicks they can put booking widgets on
+                    their own website. The portal is available in Dutch, English, German and French.
                   </p>
-                  <b-button
-                    @click="openUrlNewTab('https://github.com/Nostramarkus/markvanlit/')"
-                    icon-left="github-circle"
-                  >View on github</b-button>
+                  <!-- <b-button
+                    @click="openUrlNewTab('https://myvilla.villaforyou.com/')"
+                    icon-left="earth"
+                  >Visit website</b-button> -->
                 </div>
               </div>
               <div>
-                <nuxt-link to="/bresam-heftrucks" class="mark-other-project">
+                <nuxt-link to="/villa-for-you" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
+                </nuxt-link>
+                <nuxt-link to="/widgets" class="mark-other-project float-right">
+                  Next
+                  <i class="fas fa-chevron-right"></i>
                 </nuxt-link>
               </div>
             </u-animate>
@@ -116,19 +123,22 @@ export default {
       gallery: false,
       items: [
         {
-          image: require("@/assets/img/work-this-website-01.jpg")
+          image: require("@/assets/img/work-myvilla-01.jpg")
         },
         {
-          image: require("@/assets/img/work-this-website-02.jpg")
+          image: require("@/assets/img/work-myvilla-05.jpg")
         },
         {
-          image: require("@/assets/img/work-this-website-03.jpg")
+          image: require("@/assets/img/work-myvilla-02.jpg")
         },
         {
-          image: require("@/assets/img/work-this-website-04.jpg")
+          image: require("@/assets/img/work-myvilla-03.jpg")
         },
         {
-          image: require("@/assets/img/work-this-website-05.jpg")
+          image: require("@/assets/img/work-myvilla-04.jpg")
+        },
+        {
+          image: require("@/assets/img/work-myvilla-06.jpg")
         }
       ]
     };

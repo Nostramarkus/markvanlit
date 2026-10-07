@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -50,11 +50,12 @@
                       <span
                         v-if="gallery"
                         @click="switchGallery(false)"
-                        class="modal-close is-large"
+                        class="modal-close is-large bg-secondary"
                       />
                       <template
                         slot="indicators"
                         slot-scope="props"
+                        class="bg-secondary"
                         icon-size="large"
                         @click="switchGallery(false)"
                       >
@@ -71,26 +72,29 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">Holiday home website</h4>
+                    <h4 class="text-center text-uppercase mb-3">Corporate website Villa for You</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3">
                     <a
                       href="https://www.villaforyou.com/"
                       target="_blank"
                       class="link"
-                    >Villa for You</a> rents out high-quality holiday homes in the most beautiful countries of Europe.
-                    I've built their website in Nuxt with Storyblok as headless CMS, available in Dutch, English, German and French.
+                    >Villa for You</a> specializes in the rental of high-quality holiday homes in Europe.
+                    I've built their website with Nuxt and a custom back-end using Node. <br><br>
+                    It uses AI to generate landing pages automatically, based on which keywords people search for most.
+                    <br><br>
+                    Available in Dutch, English, German and French.
                     Visitors can search and filter holiday homes, browse destination pages, save their favorites and check
                     availability and prices per home.
                   </p>
                   <b-button
                     @click="openUrlNewTab('https://www.villaforyou.com/')"
                     icon-left="earth"
-                  >Visit website</b-button>
+                  >www.villaforyou.com</b-button>
                 </div>
               </div>
               <div>
-                <nuxt-link to="/partou" class="mark-other-project float-right">
+                <nuxt-link to="/myvilla" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Webshop</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3">
                     Streken is a specialty beer store in Breda. The owner had plans to sell beers online so i've
                     built a custom webshop in the existing website.
                     Feel free to visit the webshop and order some beers from your couch, your order will be delivered to your doorstep.
@@ -85,10 +85,10 @@
                 </div>
               </div>
               <div>
-                <nuxt-link to="/wicked-oneliners" class="mark-other-project">
+                <nuxt-link to="/cheflix" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/beddorama" class="mark-other-project float-right">
+                <nuxt-link to="/belvilla" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

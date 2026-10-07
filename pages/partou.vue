@@ -21,7 +21,7 @@
       <div class="container">
         <section class="section mb-5 pt-0">
           <nuxt-link to="/#projects" class="mark-terug mt-3">
-            <i class="fas fa-chevron-left"></i>&nbsp;Back
+            <i class="fas fa-chevron-left"></i>&nbsp;Projects
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
@@ -34,7 +34,7 @@
                 <div>
                   <h5 class="font-weight-bold">
                     <div style="font-size: 28px;">Pricewinner!</div>
-                    This website has won 1st price for best website and 2nd price for most populair website in the category "Werken bij-omgevingen".
+                    In 2022 this website has won 1st price for best website <!-- and 2nd price for most populair website --> in the category "Werken bij-omgevingen".
                   </h5>
                   <a href="https://websitevhjaar.nl/" target="_blank" class="wvhjlink">https://websitevhjaar.nl/</a>
                 </div>
@@ -83,17 +83,15 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A vacancies website for Partou</h4>
                   </div>
-                  <p class="mb-3" align="justify">
+                  <p class="mb-3">
                     Partou is one of the the largest childcare organization in the Netherlands. I've created
                     <a href="https://www.werkenbijpartou.nl" target="_blank" class="link">www.werkenbijpartou.nl</a>.
                     This website focuses on available vacancies in over 900 Partou locations throughout the country. Visitors can apply for a job directly on the website.
                     <br>
                     <br>
-                    The website is Server Side Rendered and hydrates into a Single Page Application as soon a visitor lands on any page.
-                    The website has strong SEO characteristics for great Google search results.
-                    The frontend is created with
-                    <a href="https://nuxtjs.org/" target="_blank" class="link">Nuxt.js</a>.
-                    The backend is created with
+                    I've created the front-end with
+                    <a href="https://nuxt.com/" target="_blank" class="link">Nuxt</a>
+                    and the back-end with
                     <a href="https://www.contentful.com/" target="_blank" class="link">Contentful</a> headless CMS.
                   </p>
                   <b-button
@@ -103,7 +101,7 @@
                 </div>
               </div>
               <div>
-                <nuxt-link to="/villa-for-you" class="mark-other-project">
+                <nuxt-link to="/widgets" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
                 <nuxt-link to="/cheflix" class="mark-other-project float-right">
