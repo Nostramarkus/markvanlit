@@ -325,7 +325,7 @@
         </div>
       </div>
       <br>
-      <div class="row ml-5 mr-5 mt-2">
+      <div class="row mx-2 mx-md-5 mt-2">
         <nuxt-link to="/villa-for-you" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-villa-for-you.svg" alt="Villa for You" class="img-fluid">
@@ -348,7 +348,7 @@
           </div>
         </nuxt-link>
       </div>
-      <div class="row ml-5 mr-5 mt-2">
+      <div class="row mx-2 mx-md-5 mt-2">
         <nuxt-link to="/cheflix" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-cheflix.svg" alt="Cheflix" class="img-fluid">
@@ -376,7 +376,7 @@
         </nuxt-link>
         
       </div>
-      <div class="row ml-5 mr-5 mt-2">
+      <div class="row mx-2 mx-md-5 mt-2">
         
         <nuxt-link to="/design-for-interior" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
@@ -405,7 +405,7 @@
           </div>
         </nuxt-link>
       </div>
-      <div class="row ml-5 mr-5 mt-2">
+      <div class="row mx-2 mx-md-5 mt-2">
         
         <!-- <nuxt-link to="/bresam-heftrucks" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
