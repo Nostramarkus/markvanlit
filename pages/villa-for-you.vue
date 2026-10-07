@@ -6,7 +6,7 @@
           <div class="h-100 text-center parralax-home-top">
             <u-animate-container>
               <u-animate name="fadeInDown" duration="1s" :offset="0">
-                <img src="@/assets/img/wicked-oneliners.svg" class="logo-img z-depth-2">
+                <img src="@/assets/img/villa-for-you.svg" class="logo-img z-depth-2">
               </u-animate>
             </u-animate-container>
           </div>
@@ -25,7 +25,7 @@
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
-              <h2 class="text-uppercase text-center font-weight-bold mb-4 pt-5">Wicked Oneliners</h2>
+              <h2 class="text-uppercase text-center font-weight-bold mb-4 pt-5">Villa for You</h2>
             </u-animate>
             <u-animate name="fadeIn" duration="2s">
               <hr>
@@ -44,7 +44,7 @@
                     >
                       <b-carousel-item v-for="(item, i) in items" :key="i">
                         <a @click="switchGallery(true)" class="image mark-work-image mb-3">
-                          <img :src="item.image" alt="Design For Interior">
+                          <img :src="item.image" alt="Villa for You">
                         </a>
                       </b-carousel-item>
                       <span
@@ -62,7 +62,7 @@
                           <img
                             :draggable="false"
                             :src="getImgUrl(props.i)"
-                            alt="Design For Interior"
+                            alt="Villa for You"
                           >
                         </figure>
                       </template>
@@ -71,36 +71,26 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">A fun project</h4>
+                    <h4 class="text-center text-uppercase mb-3">Holiday home website</h4>
                   </div>
                   <p class="mb-3" align="justify">
-                    Ever had a great oneliner that you can't recall? Fear no more, Wicked Oneliners is here! A platform
-                    where you add your oneliners and get likes from others.
-                    <br>
-                    <br>This is a little fun project i've made with
                     <a
-                      href="https://vuejs.org/"
+                      href="https://www.villaforyou.com/"
                       target="_blank"
                       class="link"
-                    >Vue&nbsp;js</a>.
-                    Feel free to create an account, add your own oneliners and like others. If you are interested in my code
-                    check out the project on github.
+                    >Villa for You</a> rents out high-quality holiday homes in the most beautiful countries of Europe.
+                    I've built their website in Nuxt with Storyblok as headless CMS, available in Dutch, English, German and French.
+                    Visitors can search and filter holiday homes, browse destination pages, save their favorites and check
+                    availability and prices per home.
                   </p>
                   <b-button
-                    @click="openUrlNewTab('https://wickedoneliners.nl/')"
+                    @click="openUrlNewTab('https://www.villaforyou.com/')"
                     icon-left="earth"
                   >Visit website</b-button>
-                  <b-button
-                    @click="openUrlNewTab('https://github.com/Nostramarkus/wickedoneliners/')"
-                    icon-left="github-circle"
-                  >View on github</b-button>
                 </div>
               </div>
               <div>
-                <nuxt-link to="/design-for-interior" class="mark-other-project">
-                  <i class="fas fa-chevron-left"></i>&nbsp;Prev.
-                </nuxt-link>
-                <nuxt-link to="/streken" class="mark-other-project float-right">
+                <nuxt-link to="/partou" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>
@@ -125,19 +115,19 @@ export default {
       gallery: false,
       items: [
         {
-          image: require("@/assets/img/work-wicked-oneliners-01.jpg")
+          image: require("@/assets/img/work-villa-for-you-01.jpg")
         },
         {
-          image: require("@/assets/img/work-wicked-oneliners-02.jpg")
+          image: require("@/assets/img/work-villa-for-you-02.jpg")
         },
         {
-          image: require("@/assets/img/work-wicked-oneliners-03.jpg")
+          image: require("@/assets/img/work-villa-for-you-03.jpg")
         },
         {
-          image: require("@/assets/img/work-wicked-oneliners-04.jpg")
+          image: require("@/assets/img/work-villa-for-you-04.jpg")
         },
         {
-          image: require("@/assets/img/work-wicked-oneliners-05.jpg")
+          image: require("@/assets/img/work-villa-for-you-05.jpg")
         }
       ]
     };

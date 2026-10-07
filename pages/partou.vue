@@ -83,18 +83,18 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A vacancies website for Partou</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     Partou is one of the the largest childcare organization in the Netherlands. I've created
-                    <a href="https://www.werkenbijpartou.nl" target="_blank" class="link grey-text">www.werkenbijpartou.nl</a>.
+                    <a href="https://www.werkenbijpartou.nl" target="_blank" class="link">www.werkenbijpartou.nl</a>.
                     This website focuses on available vacancies in over 900 Partou locations throughout the country. Visitors can apply for a job directly on the website.
                     <br>
                     <br>
                     The website is Server Side Rendered and hydrates into a Single Page Application as soon a visitor lands on any page.
                     The website has strong SEO characteristics for great Google search results.
                     The frontend is created with
-                    <a href="https://nuxtjs.org/" target="_blank" class="link grey-text">Nuxt.js</a>.
+                    <a href="https://nuxtjs.org/" target="_blank" class="link">Nuxt.js</a>.
                     The backend is created with
-                    <a href="https://www.contentful.com/" target="_blank" class="link grey-text">Contentful</a> headless CMS.
+                    <a href="https://www.contentful.com/" target="_blank" class="link">Contentful</a> headless CMS.
                   </p>
                   <b-button
                     @click="openUrlNewTab('https://www.werkenbijpartou.nl')"
@@ -103,6 +103,9 @@
                 </div>
               </div>
               <div>
+                <nuxt-link to="/villa-for-you" class="mark-other-project">
+                  <i class="fas fa-chevron-left"></i>&nbsp;Prev.
+                </nuxt-link>
                 <nuxt-link to="/cheflix" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>

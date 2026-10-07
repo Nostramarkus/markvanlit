@@ -1,6 +1,11 @@
 <template>
   <div>
-    <b-navbar class="mark-nav font-weight-light" :class="{ 'mark-nav-top': top }" fixed-top>
+    <b-navbar
+      class="mark-nav font-weight-light"
+      :class="{ 'mark-nav-top': top }"
+      wrapper-class="mark-nav-wrapper"
+      fixed-top
+    >
       <template slot="brand">
         <b-navbar-item tag="div">
           <div class="buttons">
@@ -91,7 +96,7 @@ export default {
   },
   methods: {
     onScroll() {
-      var pixels = 350;
+      var pixels = 500;
       //window.outerWidth > 575 ? (pixels = 400) : (pixels = 200);
       window.pageYOffset > pixels ? (this.top = false) : (this.top = true);
     },
@@ -156,6 +161,29 @@ export default {
 .navbar-brand .navbar-item {
   position: absolute;
   right: 15px;
+}
+.mark-nav-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-transition: max-width 0.5s;
+  -o-transition: max-width 0.5s;
+  transition: max-width 0.5s;
+}
+@media screen and (min-width: 1024px) {
+  .mark-nav-wrapper {
+    display: flex;
+    align-items: stretch;
+  }
+  .mark-nav:not(.mark-nav-top) .mark-nav-wrapper {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mark-nav:not(.mark-nav-top) .mark-nav-wrapper {
+    max-width: 1140px;
+  }
 }
 .navbar-burger {
   margin-left: 0;

@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Learn to cook from the world's best chefs</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     Learn to cook by video masterclasses from the very best Michelin chefs with the best recipes anyone can make.
                     The best chefs in the world teach you how to become a master chef at home.
                     <br>
@@ -81,12 +81,12 @@
                     The website has a multilanguage feature, it is Server Side Rendered and hydrates into a Single Page Application as soon a visitor lands on any page.
                     The website has strong SEO characteristics for some good Google search results.
                     The frontend is created with
-                    <a href="https://nuxtjs.org/" target="_blank" class="link grey-text">Nuxt.js</a>.
+                    <a href="https://nuxtjs.org/" target="_blank" class="link">Nuxt.js</a>.
                     The backend is created with
-                    <a href="https://www.contentful.com/" target="_blank" class="link grey-text">Contentful</a> headless CMS.
+                    <a href="https://www.contentful.com/" target="_blank" class="link">Contentful</a> headless CMS.
                     The useraccount and video content are hosted via
-                    <a href="https://audienceplayer.nl/" target="_blank" class="link grey-text">AudiencePlayer</a> connected with a
-                    <a href="https://graphql.org/" target="_blank" class="link grey-text">GraphQL</a> API.
+                    <a href="https://audienceplayer.nl/" target="_blank" class="link">AudiencePlayer</a> connected with a
+                    <a href="https://graphql.org/" target="_blank" class="link">GraphQL</a> API.
                   </p>
                   <b-button
                     @click="openUrlNewTab('https://www.cheflix.com/nl/')"

@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Webshop</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     Streken is a specialty beer store in Breda. The owner had plans to sell beers online so i've
                     built a custom webshop in the existing website.
                     Feel free to visit the webshop and order some beers from your couch, your order will be delivered to your doorstep.

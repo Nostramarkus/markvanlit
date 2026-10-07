@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A portfolio website</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     Renie Lamers is a freelance illustrator creating wedding cards, infographics and other illustrations.
                     She wanted to have a portfolio website where she could display her work so whe came in contact with me.
                     <br>
@@ -83,7 +83,7 @@
                     <br>
                     <br>
                     The frontend is created with
-                    <a href="https://nuxtjs.org/" target="_blank" class="link grey-text">Nuxt.js</a>.
+                    <a href="https://nuxtjs.org/" target="_blank" class="link">Nuxt.js</a>.
                     The backend is created with my own php framework that I have created exclusively for Nuxt and Vue frontend projects.
                     It's a simple, very fast, easy to use and sturdy framework that I use in a lot of my work.
                   </p>

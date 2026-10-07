@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Website voor 't Taphuys</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     't Taphuys is a bar in the city centrum of Tilburg, Arnhem and Utrecht. They have a unique
                     concept with their "Tapwand", where you can tap your own beers from a wall with over 100 beertaps.
                     This works with a tapcard that you can get at 't Taphuys. You can add credit on your tapcard and
@@ -83,7 +83,7 @@
                     The website is Server Side Rendered and hydrates into a Single Page Application as soon a visitor lands on any page.
                     The website has strong SEO characteristics for great Google search results.
                     The frontend is created with
-                    <a href="https://nuxtjs.org/" target="_blank" class="link grey-text">Nuxt.js</a>.
+                    <a href="https://nuxtjs.org/" target="_blank" class="link">Nuxt.js</a>.
                     The backend uses two different api's, one or the content and one for the beers inventory.
                   </p>
                   <b-button

@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">An old project</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     This is one of my older projects that I've choose to display. I made this project in 2007, fancy front-end frameworks like
                     Vue, React or Angular did not even exist in this time. Wordpress was in these days a good option to build a website so I've created
                     a custom Wordpress template for Bresam Heftrucks.

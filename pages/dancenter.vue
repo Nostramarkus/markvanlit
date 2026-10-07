@@ -73,47 +73,47 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A whitelabel My Account</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     <a
                       href="https://www.dancenter.com/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Dancenter</a> is a vacation rental company based in Denmark. Dancenter is owned bij
                     <a
                       href="https://oyovacationhomes.com/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >OYO&nbsp;Vacation&nbsp;Homes</a>, besides Dancenter they own other vacation rental company's like
                     <a
                       href="https://www.belvilla.nl/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Belvilla</a>,
                     <a
                       href="https://www.topictravel.nl/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Topic Travel</a>,
                     <a
                       href="https://www.villaxl.com/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Villa XL</a> and
                     <a
                       href="https://oyovacationhomes.com/our-brands-2/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >more</a>. Because all of these brands are working with the same back-end system
                     i've created a white label My Account environment with
                     <a
                       href="https://vuejs.org/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Vue&nbsp;js</a>
                     where customers can view, change and pay their bookings. The My Account get's dressed for the brand
                     at runtime by looking at the URL where it's loaded. In my projects on this website you can also find
                     the
-                    <nuxt-link to="/belvilla" class="link grey-text">Belvilla&nbsp;version</nuxt-link>&nbsp;of this My Account environment.
+                    <nuxt-link to="/belvilla" class="link">Belvilla&nbsp;version</nuxt-link>&nbsp;of this My Account environment.
                   </p>
                 </div>
               </div>

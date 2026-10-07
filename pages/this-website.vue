@@ -73,14 +73,14 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A personal challenge</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     This website has been deployed as a static website that hydrates into a Single Page Application (SPA)
                     when a user lands on a page. Smart code prefetching is done to keep the load balance to a minimum and the
                     user experience to a maximum. I've used
                     <a
                       href="https://nuxtjs.org/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Nuxt&nbsp;js</a> to create this website. Was this really necessary for a website like this one? Maybe not. Is this awesome? For sure!
                     I've challenged myself to create this website in one weekend from scratch... That turned out be be a week, but never the less
                     i'm happy with the result. Feel free to look into my code of this website in my Github repository.

@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">Brand creation</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     Design For Interior is a online marketplace focussed on interior design items. I've created this
                     brand from scratch including logo, company visual styleguide and more. The site has a cool feature where
                     buyers can start a live chat with the sellers. Feel free to visit the site and maybe you will find a
@@ -88,12 +88,12 @@
                   <div class="d-flex justify-content-start mt-5">
                     <h4 class="text-center text-uppercase mb-3">Nuxt version</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     For demo purposes i recreated the website with and
                     <a
                       href="https://nuxtjs.org/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Nuxt&nbsp;js</a>. This provides Server Side Rendering (SSR) techniques and great SEO control
                   </p>
                   <b-button
@@ -110,12 +110,12 @@
                   <div class="d-flex justify-content-start mt-5">
                     <h4 class="text-center text-uppercase mb-3">React version</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     For demo purposes i recreated the website with
                     <a
                       href="https://reactjs.org/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >React&nbsp;js</a>. The project is deployed as a Single Page Application (SPA)
                   </p>
                   <b-button

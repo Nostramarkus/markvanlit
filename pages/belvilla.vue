@@ -72,48 +72,48 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A white label My Account</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     I've done a lot for
                     <a
                       href="https://belvilla.nl/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Belvilla</a>. An interesting project was the Belvilla customer My Account environment.
                     Vacation rental company Belvilla is owned by
                     <a
                       href="https://oyovacationhomes.com/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >OYO&nbsp;Vacation&nbsp;Homes</a>, besides Belvilla OYO owns other vacation rental company's like
                     <a
                       href="https://www.dancenter.com/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Dancenter</a>,
                     <a
                       href="https://www.topictravel.nl/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Topic Travel</a>,
                     <a
                       href="https://www.villaxl.com/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Villa XL</a> and
                     <a
                       href="https://oyovacationhomes.com/our-brands-2/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >more</a>. Because all of these brands are working with the same
                     back-end system i've created a white label My Account environment with
                     <a
                       href="https://vuejs.org/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Vue&nbsp;js</a> where customers can view, change and pay
                     their bookings. The My Account get's dressed for the brand at runtime by looking at the URL where it's loaded.
                     In my projects on this website you can also find the
-                    <nuxt-link to="/dancenter" class="link grey-text">Dancenter&nbsp;version</nuxt-link>&nbsp;of this My Account environment.
+                    <nuxt-link to="/dancenter" class="link">Dancenter&nbsp;version</nuxt-link>&nbsp;of this My Account environment.
                   </p>
                 </div>
               </div>

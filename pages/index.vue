@@ -137,14 +137,7 @@
                       <img src="@/assets/img/angular.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">Angular</p>
                     </a>
-                    <a
-                      href="https://graphql.org/"
-                      target="_blank"
-                      class="col-6 col-md-3 mark-skill"
-                    >
-                      <img src="@/assets/img/graphql.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt">GraphQL</p>
-                    </a>
+                    
                     <a
                       href="https://nodejs.org/"
                       target="_blank"
@@ -160,6 +153,14 @@
                     >
                       <img src="@/assets/img/php.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">PHP</p>
+                    </a>
+                    <a
+                      href="https://graphql.org/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
+                      <img src="@/assets/img/graphql.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt">GraphQL</p>
                     </a>
                     <a
                       href="https://www.progress.com/openedge"
@@ -324,6 +325,11 @@
       </div>
       <br>
       <div class="row ml-5 mr-5 mt-2">
+        <nuxt-link to="/villa-for-you" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-villa-for-you.svg" alt="Villa for You" class="img-fluid">
+          </div>
+        </nuxt-link>
         <nuxt-link to="/partou" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/wvhj.png" alt="Partou" class="wvhj">
@@ -340,13 +346,13 @@
             <img src="@/assets/img/project-streken.svg" alt="Streken" class="img-fluid">
           </div>
         </nuxt-link>
+      </div>
+      <div class="row ml-5 mr-5 mt-2">
         <nuxt-link to="/belvilla" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-belvilla.svg" alt="Belvilla" class="img-fluid">
           </div>
         </nuxt-link>
-      </div>
-      <div class="row ml-5 mr-5 mt-2">
         <nuxt-link to="/taphuys" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-taphuys.svg" alt="'t Taphuys" class="img-fluid">
@@ -362,13 +368,13 @@
             <img src="@/assets/img/project-design-for-interior.svg" alt="Design for Interior" class="img-fluid">
           </div>
         </nuxt-link>
+      </div>
+      <div class="row ml-5 mr-5 mt-2">
         <nuxt-link to="/wicked-oneliners" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-wicked-oneliners.svg" alt="Wicked Oneliners" class="img-fluid">
           </div>
         </nuxt-link>
-      </div>
-      <div class="row ml-5 mr-5 mt-2">
         <nuxt-link to="/beddorama" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-beddorama.svg" alt="Beddorama" class="img-fluid">
@@ -384,6 +390,8 @@
             <img src="@/assets/img/project-dancenter.svg" alt="Dancenter" class="img-fluid">
           </div>
         </nuxt-link>
+      </div>
+      <div class="row ml-5 mr-5 mt-2">
         <nuxt-link to="/bresam-heftrucks" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-bresam-heftrucks.jpg" alt="Bresam Heftrucks" class="img-fluid">

@@ -73,7 +73,7 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-3">A Wordpress template</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
+                  <p class="mb-3" align="justify">
                     Beddorama is a store that specializes in sleep comfort. I've made a custom Beddorama Wordpress template
                     for their website
                   </p>
