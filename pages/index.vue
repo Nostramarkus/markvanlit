@@ -36,51 +36,35 @@
                   <div class="d-flex justify-content-start">
                     <h4 class="text-center text-uppercase mb-5">Enjoying the vue</h4>
                   </div>
-                  <p class="grey-text mb-3" align="justify">
-                    I am a passionate web focussed front-end developer with a background in graphic design.
-                    With over 10 years of experience i love to create anything from
-                    a small custom website to high-performance scalable web applications.
+                  <p class="mb-3" align="left">
+                    I am a passionate web focussed front-end developer with a background in graphic design. With over 15 years of experience I love to create anything from a small custom website to high-performance scalable web applications.
                     <br>
                     <br>I'm a big fan of the
                     <a
                       href="https://vuejs.org/"
                       target="_blank"
-                      class="link grey-text"
-                    >Vue&nbsp;js</a> framework that i use in most of my projects. For scalability and/or SEO
-                    purposes i like to work with
+                      class="link"
+                    >Vue</a> framework that i use in most of my projects. For scalability and/or SEO
+                    purposes i love to work with
                     <a
-                      href="https://www.nuxtjs.org/"
+                      href="https://nuxt.com/"
                       target="_blank"
-                      class="link grey-text"
-                    >Nuxt js</a> which enables me to provide fancy stuff like Server Side Rendering
-                    <a
-                      href="https://www.digifluencer.com/2019/07/15/what-is-ssr-and-how-it-impacts-seo/"
-                      target="_blank"
-                      class="link grey-text"
-                    >(SSR)</a>.
+                      class="link"
+                    >Nuxt</a> which enables me to provide fancy stuff like Server Side Rendering.
                     Every year i attend to the
                     <a
                       href="https://www.frontenddeveloperlove.com/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Front-end&nbsp;Love</a> conference and the
                     <a
                       href="https://vuejs.amsterdam/"
                       target="_blank"
-                      class="link grey-text"
+                      class="link"
                     >Vue&nbsp;js&nbsp;Amsterdam</a> conference to stay up to date with the latest techniques in the fast moving front-end landscape.
                     <br>
-                    <br>Besides Vue js i have experience working with similar frameworks like
-                    <a
-                      href="https://angular.io/"
-                      target="_blank"
-                      class="link grey-text"
-                    >Angular</a> and
-                    <a
-                      href="https://reactjs.org/"
-                      target="_blank"
-                      class="link grey-text"
-                    >React&nbsp;js</a>. I can handle them just fine, but when it's up to me, i'll bring Vue to the party.
+                    <br>Besides Vue i have experience working with similar frameworks like
+                    Angular and React. I can handle them just fine, but when it's up to me, i'll bring Vue to the party.
                   </p>
                 </div>
                 <div class="col-lg-6 offset-lg-1 col-md-12 mb-5">
@@ -97,21 +81,22 @@
                       <p class="text-uppercase font-weight-bold mark-skill-txt">HTML 5</p>
                     </a>
                     <a
-                      href="https://developer.mozilla.org/en-US/docs/Archive/CSS3"
+                      href="https://tailwindcss.com/"
                       target="_blank"
                       class="col-6 col-md-3 mark-skill"
                     >
-                      <img src="@/assets/img/css3.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt">CSS 3</p>
+                      <img src="@/assets/img/tailwind.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt">Tailwind</p>
                     </a>
                     <a
-                      href="https://sass-lang.com/"
+                      href="https://www.typescriptlang.org/"
                       target="_blank"
                       class="col-6 col-md-3 mark-skill"
                     >
-                      <img src="@/assets/img/sass.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt">SASS</p>
+                      <img src="@/assets/img/typescript.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Typescript</p>
                     </a>
+                    
                     <a
                       href="https://www.javascript.com/"
                       target="_blank"
@@ -120,11 +105,19 @@
                       <img src="@/assets/img/javascript.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Javascript</p>
                     </a>
-                    <a href="https://vuejs.org/" target="_blank" class="col-6 col-md-3 mark-skill">
-                      <img src="@/assets/img/vue.svg" class="mark-skill-svg">
+                    <a
+                      href="https://vuejs.org/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
+                      <img src="@/assets/img/vue.svg" class="mark-skill-svg py-1">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">Vue</p>
                     </a>
-                    <a href="https://nuxtjs.org/" target="_blank" class="col-6 col-md-3 mark-skill">
+                    <a
+                      href="https://nuxt.com/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
                       <img src="@/assets/img/nuxt.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">Nuxt</p>
                     </a>
@@ -136,37 +129,29 @@
                       <img src="@/assets/img/react.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">React</p>
                     </a>
-                    <a href="https://angular.io/" target="_blank" class="col-6 col-md-3 mark-skill">
+                    <a
+                      href="https://angular.io/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
                       <img src="@/assets/img/angular.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">Angular</p>
                     </a>
                     <a
-                      href="http://es6-features.org/"
+                      href="https://graphql.org/"
                       target="_blank"
                       class="col-6 col-md-3 mark-skill"
                     >
-                      <img src="@/assets/img/es6.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt">ES6</p>
+                      <img src="@/assets/img/graphql.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt">GraphQL</p>
                     </a>
-                    <a href="https://nodejs.org/" target="_blank" class="col-6 col-md-3 mark-skill">
+                    <a
+                      href="https://nodejs.org/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
                       <img src="@/assets/img/node.svg" class="mark-skill-svg">
                       <p class="text-uppercase font-weight-bold mark-skill-txt">Node</p>
-                    </a>
-                    <a
-                      href="https://www.adobe.com/nl/products/illustrator.html"
-                      target="_blank"
-                      class="col-6 col-md-3 mark-skill"
-                    >
-                      <img src="@/assets/img/illustrator.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Illustrator</p>
-                    </a>
-                    <a
-                      href="https://www.adobe.com/nl/products/photoshop.html"
-                      target="_blank"
-                      class="col-6 col-md-3 mark-skill"
-                    >
-                      <img src="@/assets/img/photoshop.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Photoshop</p>
                     </a>
                     <a
                       href="https://www.php.net/"
@@ -185,16 +170,36 @@
                       <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Progress</p>
                     </a>
                     <a
-                      href="https://getbootstrap.com/"
+                      href="https://www.adobe.com/nl/products/illustrator.html"
                       target="_blank"
                       class="col-6 col-md-3 mark-skill"
                     >
-                      <img src="@/assets/img/bootstrap.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Bootstrap</p>
+                      <img src="@/assets/img/illustrator.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Illustrator</p>
                     </a>
-                    <a href="https://jquery.com/" target="_blank" class="col-6 col-md-3 mark-skill">
-                      <img src="@/assets/img/jquery.svg" class="mark-skill-svg">
-                      <p class="text-uppercase font-weight-bold mark-skill-txt">jQuery</p>
+                    <a
+                      href="https://www.adobe.com/nl/products/photoshop.html"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
+                      <img src="@/assets/img/photoshop.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Photoshop</p>
+                    </a>
+                    <a
+                      href="https://www.contentful.com/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
+                      <img src="@/assets/img/contentful.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt-xl">Contentful</p>
+                    </a>
+                    <a
+                      href="https://www.storyblok.com/"
+                      target="_blank"
+                      class="col-6 col-md-3 mark-skill"
+                    >
+                      <img src="@/assets/img/storyblok.svg" class="mark-skill-svg">
+                      <p class="text-uppercase font-weight-bold mark-skill-txt">Storyblok</p>
                     </a>
                   </div>
                 </div>
@@ -319,63 +324,70 @@
       </div>
       <br>
       <div class="row ml-5 mr-5 mt-2">
-        <nuxt-link to="/oyo-vacation-homes" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/oyo-vacation-homes.jpg" class="img-fluid">
+        <nuxt-link to="/partou" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/wvhj.png" alt="Partou" class="wvhj">
+            <img src="@/assets/img/project-partou.svg" alt="Partou" class="img-fluid">
           </div>
-          <p
-            class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5"
-          >OYO Vacation Homes</p>
+        </nuxt-link>
+        <nuxt-link to="/cheflix" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-cheflix.svg" alt="Cheflix" class="img-fluid">
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/streken" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-streken.svg" alt="Streken" class="img-fluid">
+          </div>
         </nuxt-link>
         <nuxt-link to="/belvilla" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/belvilla.jpg" class="img-fluid">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-belvilla.svg" alt="Belvilla" class="img-fluid">
           </div>
-          <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5">Belvilla</p>
-        </nuxt-link>
-        <nuxt-link to="/design-for-interior" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/design-for-interior.jpg" class="img-fluid">
-          </div>
-          <p
-            class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5"
-          >Design For Interior</p>
-        </nuxt-link>
-        <nuxt-link to="/wicked-oneliners" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/wicked-oneliners.jpg" class="img-fluid">
-          </div>
-          <p
-            class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5"
-          >Wicked oneliners</p>
         </nuxt-link>
       </div>
       <div class="row ml-5 mr-5 mt-2">
-        <nuxt-link to="/streken" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/streken.jpg" class="img-fluid">
+        <nuxt-link to="/taphuys" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-taphuys.svg" alt="'t Taphuys" class="img-fluid">
           </div>
-          <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5">Streken</p>
         </nuxt-link>
-        <nuxt-link to="/beddorama" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/beddorama.jpg" class="img-fluid">
+        <nuxt-link to="/oyo-vacation-homes" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-oyo-vacation-homes.svg" alt="OYO Vacation Homes" class="img-fluid">
           </div>
-          <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5">Beddorama</p>
+        </nuxt-link>
+        <nuxt-link to="/design-for-interior" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-design-for-interior.svg" alt="Design for Interior" class="img-fluid">
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/wicked-oneliners" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-wicked-oneliners.svg" alt="Wicked Oneliners" class="img-fluid">
+          </div>
+        </nuxt-link>
+      </div>
+      <div class="row ml-5 mr-5 mt-2">
+        <nuxt-link to="/beddorama" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-beddorama.svg" alt="Beddorama" class="img-fluid">
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/renie-lamers" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-renie-lamers.svg" alt="Renie Lamers" class="img-fluid">
+          </div>
         </nuxt-link>
         <nuxt-link to="/dancenter" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/dancenter.jpg" class="img-fluid">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-dancenter.svg" alt="Dancenter" class="img-fluid">
           </div>
-          <p class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5">Dancenter</p>
         </nuxt-link>
-        <nuxt-link to="/this-website" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-2">
-            <img src="@/assets/img/mark-van-lit-site.jpg" class="img-fluid">
+        <nuxt-link to="/bresam-heftrucks" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-bresam-heftrucks.jpg" alt="Bresam Heftrucks" class="img-fluid">
           </div>
-          <p
-            class="text-uppercase text-center font-weight-bold blue-grey-text mt-4 mb-5"
-          >This website</p>
         </nuxt-link>
       </div>
     </section>

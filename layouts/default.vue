@@ -131,6 +131,7 @@ export default {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-weight: bold;
 }
 .mark-nav .navbar-item:hover,
 .mark-nav-top .navbar-item:hover {
@@ -145,6 +146,7 @@ export default {
   -webkit-transition: 0.35s;
   -o-transition: 0.35s;
   transition: 0.35s;
+  font-weight: bold;
 }
 .mark-nav-contact-btn:focus {
   color: white !important;

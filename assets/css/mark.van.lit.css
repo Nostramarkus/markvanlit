@@ -91,6 +91,7 @@ a:hover{
 
 
 .link {
+   display: inline-block;
    text-decoration: none;
    color: #121314 !important;
    position: relative;
@@ -834,4 +835,27 @@ color: #212529;
 .mark-to-top:hover i {
    color: #9e9e9e;
    top: 5px;
+}
+
+.project-item {
+  margin-bottom: 20px;
+}
+
+.wvhj {
+  position: absolute;
+  width: 30%;
+  right: 8%;
+  top: 3%;
+  transform: rotate(12deg);
+  z-index: 10;
+}
+
+a.wvhjlink {
+  color: grey;
+  margin-top: 5px;
+}
+
+a.wvhjlink:hover {
+  color: #565656;
+  margin-top: 5px;
 }
