@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">Brand creation</h4>
+                    <h4 class="ext-uppercase mb-3">Brand creation</h4>
                   </div>
                   <p class="mb-3">
                     Design For Interior is a online marketplace focussed on interior design items. 
@@ -87,7 +87,7 @@
 
                   <!-- <hr class="mt-5">
                   <div class="d-flex justify-content-start mt-5">
-                    <h4 class="text-center text-uppercase mb-3">Nuxt version</h4>
+                    <h4 class="text-uppercase mb-3">Nuxt version</h4>
                   </div>
                    <p class="mb-3">
                     For demo purposes i recreated the website with and
@@ -109,7 +109,7 @@
 
                   <hr class="mt-5">
                   <div class="d-flex justify-content-start mt-5">
-                    <h4 class="text-center text-uppercase mb-3">React version</h4>
+                    <h4 class="text-uppercase mb-3">React version</h4>
                   </div>
                   <p class="mb-3" align="justify">
                     For demo purposes i recreated the website with

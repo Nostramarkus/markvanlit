@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">A personal challenge</h4>
+                    <h4 class="text-uppercase mb-3">A personal challenge</h4>
                   </div>
                   <p class="mb-3">
                     This website has been deployed as a static website that hydrates into a Single Page Application (SPA)

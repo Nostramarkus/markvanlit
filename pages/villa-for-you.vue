@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-3">Corporate website Villa for You</h4>
+                    <h4 class="text-uppercase mb-3">Corporate website Villa for You</h4>
                   </div>
                   <p class="mb-3">
                     <a
