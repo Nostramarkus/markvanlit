@@ -37,7 +37,10 @@
                     <h4 class="text-center text-uppercase mb-5">Enjoying the vue</h4>
                   </div>
                   <p class="mb-3" align="left">
-                    I am a passionate web focussed front-end developer with a background in graphic design. With over 20 years of experience I love to create anything from a small custom website to high-performance scalable web applications.
+                    I am a passionate web focused front-end developer with a background in 
+                    graphic design and full-stack experience, from API's and databases to deployment. 
+                    With over 20 years of experience I love to create anything from a small custom 
+                    website to high-performance scalable web applications.
                     <br>
                     <br>I'm a big fan of the
                     <a
@@ -349,16 +352,17 @@
         </nuxt-link>
       </div>
       <div class="row mx-2 mx-md-5 mt-2">
+        <nuxt-link to="/printman" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-printman.svg" alt="Printman.group" class="img-fluid">
+          </div>
+        </nuxt-link>
         <nuxt-link to="/cheflix" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-cheflix.svg" alt="Cheflix" class="img-fluid">
           </div>
         </nuxt-link>
-        <!-- <nuxt-link to="/streken" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-streken.svg" alt="Streken" class="img-fluid">
-          </div>
-        </nuxt-link> -->
+        
         <nuxt-link to="/belvilla" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-belvilla.svg" alt="Belvilla" class="img-fluid">
@@ -369,25 +373,21 @@
             <img src="@/assets/img/project-taphuys.svg" alt="'t Taphuys" class="img-fluid">
           </div>
         </nuxt-link>
+     
+        
+      </div>
+      <div class="row mx-2 mx-md-5 mt-2">
         <nuxt-link to="/beddorama" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-beddorama.svg" alt="Beddorama" class="img-fluid">
           </div>
         </nuxt-link>
-        
-      </div>
-      <div class="row mx-2 mx-md-5 mt-2">
-        
         <nuxt-link to="/design-for-interior" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-design-for-interior.svg" alt="Design for Interior" class="img-fluid">
           </div>
         </nuxt-link>
-        <!-- <nuxt-link to="/wicked-oneliners" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-wicked-oneliners.svg" alt="Wicked Oneliners" class="img-fluid">
-          </div>
-        </nuxt-link> -->
+        
         <nuxt-link to="/oyo-vacation-homes" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-oyo-vacation-homes.svg" alt="OYO Vacation Homes" class="img-fluid">
@@ -399,19 +399,29 @@
             <img src="@/assets/img/project-renie-lamers.svg" alt="Renie Lamers" class="img-fluid">
           </div>
         </nuxt-link>
+        
+      </div>
+      <div class="row mx-2 mx-md-5 mt-2">
         <nuxt-link to="/dancenter" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-dancenter.svg" alt="Dancenter" class="img-fluid">
           </div>
         </nuxt-link>
-      </div>
-      <div class="row mx-2 mx-md-5 mt-2">
-        
-        <!-- <nuxt-link to="/bresam-heftrucks" class="col-lg-3 col-md-6">
+        <nuxt-link to="/streken" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-streken.svg" alt="Streken" class="img-fluid">
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/wicked-oneliners" class="col-lg-3 col-md-6">
+          <div class="view overlay zoom z-depth-1 project-item">
+            <img src="@/assets/img/project-wicked-oneliners.svg" alt="Wicked Oneliners" class="img-fluid">
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/bresam-heftrucks" class="col-lg-3 col-md-6">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-bresam-heftrucks.jpg" alt="Bresam Heftrucks" class="img-fluid">
           </div>
-        </nuxt-link> -->
+        </nuxt-link>
       </div>
     </section>
 

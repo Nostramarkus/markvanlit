@@ -77,8 +77,7 @@
                     Beddorama is a store in Made that specializes in sleep comfort. I've rebuilt their website from the
                     ground up with Nuxt UI, with Storyblok as the CMS, together with a new logo. The shop manages its own
                     boxsprings, bed frames, wardrobes, mattresses and recliners in Storyblok, highlights its deals on a
-                    separate page and puts the latest brochure on the homepage for download. The site works just as well
-                    on a phone as on a desktop.
+                    separate page and puts the latest brochure on the homepage for download.
                   </p>
                   <b-button
                     @click="openUrlNewTab('https://www.beddorama.nl/')"

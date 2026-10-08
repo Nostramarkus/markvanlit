@@ -6,7 +6,7 @@
           <div class="h-100 text-center parralax-home-top">
             <u-animate-container>
               <u-animate name="fadeInDown" duration="1s" :offset="0">
-                <img src="@/assets/img/project-bresam-heftrucks.jpg" class="logo-img z-depth-2">
+                <img src="@/assets/img/printman.svg" class="logo-img z-depth-2">
               </u-animate>
             </u-animate-container>
           </div>
@@ -25,7 +25,7 @@
           </nuxt-link>
           <u-animate-container>
             <u-animate name="fadeIn" duration="2s">
-              <h2 class="text-uppercase text-center font-weight-bold mb-4 pt-5">Bresam Heftrucks</h2>
+              <h2 class="text-uppercase text-center font-weight-bold mb-4 pt-5">Printman.group</h2>
             </u-animate>
             <u-animate name="fadeIn" duration="2s">
               <hr>
@@ -44,7 +44,7 @@
                     >
                       <b-carousel-item v-for="(item, i) in items" :key="i">
                         <a @click="switchGallery(true)" class="image mark-work-image mb-3">
-                          <img :src="item.image" alt="Bresam Heftrucks">
+                          <img :src="item.image" alt="Printman.group">
                         </a>
                       </b-carousel-item>
                       <span
@@ -62,7 +62,7 @@
                           <img
                             :draggable="false"
                             :src="getImgUrl(props.i)"
-                            alt="Bresam Heftrucks"
+                            alt="Printman.group"
                           >
                         </figure>
                       </template>
@@ -71,22 +71,51 @@
                 </div>
                 <div class="col-lg-5 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-uppercase mb-3">An old project</h4>
+                    <h4 class="text-uppercase mb-3">Make it work</h4>
                   </div>
                   <p class="mb-3">
-                    This is one of my older projects that I've choose to display. I made this project in 2007, fancy front-end frameworks like
-                    Vue, React or Angular did not even exist in this time, jQuery was your friend as a developer. Wordpress was in these days a good option to build a website so I've created
-                    a custom Wordpress template for Bresam Heftrucks.
-                    <br>
-                    <br>
-                    Today I dont't like working with Worpress anymore because it's a slow system and comes with a lot of overhead. But for 2007 standards
-                    this was a pretty awesome website.
+                    <a
+                      href="https://printmangroup.com/"
+                      target="_blank"
+                      class="link"
+                    >Printman.group</a> is a print &amp; fulfilment company based in Breda. Since 2008 they
+                    take care of the complete offline communication process for their clients, from concept
+                    and creation to production, logistics and fulfilment.
+                    <br><br>
+                    For their new website i've used
+                    <a
+                      href="https://nuxt.com/"
+                      target="_blank"
+                      class="link"
+                    >Nuxt</a> in combination with the headless CMS
+                    <a
+                      href="https://www.storyblok.com/"
+                      target="_blank"
+                      class="link"
+                    >Storyblok</a>. Every page is built from a set of content blocks, like headers, carousels,
+                    portfolio items and vacancies, so Printman can compose and edit their pages themselves.
+                    <br><br>
+                    The styling is done with
+                    <a
+                      href="https://tailwindcss.com/"
+                      target="_blank"
+                      class="link"
+                    >Tailwind&nbsp;CSS</a>, with some subtle motion and parallax effects to bring the bold
+                    black, white and red identity to life.
                   </p>
+                  <b-button
+                    @click="openUrlNewTab('https://printmangroup.com/')"
+                    icon-left="earth"
+                    >www.printmangroup.com</b-button>
                 </div>
               </div>
               <div>
-                <nuxt-link to="/wicked-oneliners" class="mark-other-project">
+                <nuxt-link to="/partou" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
+                </nuxt-link>
+                <nuxt-link to="/cheflix" class="mark-other-project float-right">
+                  Next
+                  <i class="fas fa-chevron-right"></i>
                 </nuxt-link>
               </div>
             </u-animate>
@@ -109,19 +138,16 @@ export default {
       gallery: false,
       items: [
         {
-          image: require("@/assets/img/work-bresam-heftrucks-01.jpg")
+          image: require("@/assets/img/work-printman-01.jpg")
         },
         {
-          image: require("@/assets/img/work-bresam-heftrucks-02.jpg")
+          image: require("@/assets/img/work-printman-02.jpg")
         },
         {
-          image: require("@/assets/img/work-bresam-heftrucks-03.jpg")
+          image: require("@/assets/img/work-printman-03.jpg")
         },
         {
-          image: require("@/assets/img/work-bresam-heftrucks-04.jpg")
-        },
-        {
-          image: require("@/assets/img/work-bresam-heftrucks-05.jpg")
+          image: require("@/assets/img/work-printman-04.jpg")
         }
       ]
     };

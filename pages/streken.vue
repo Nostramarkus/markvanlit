@@ -76,19 +76,14 @@
                   <p class="mb-3">
                     Streken is a specialty beer store in Breda. The owner had plans to sell beers online so i've
                     built a custom webshop in the existing website.
-                    Feel free to visit the webshop and order some beers from your couch, your order will be delivered to your doorstep.
                   </p>
-                  <b-button
-                    @click="openUrlNewTab('https://strekenbreda.nl/bieren')"
-                    icon-left="earth"
-                  >Visit webshop</b-button>
                 </div>
               </div>
               <div>
-                <nuxt-link to="/cheflix" class="mark-other-project">
+                <nuxt-link to="/dancenter" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/belvilla" class="mark-other-project float-right">
+                <nuxt-link to="/wicked-oneliners" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

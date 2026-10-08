@@ -74,33 +74,19 @@
                     <h4 class="text-uppercase mb-3">A fun project</h4>
                   </div>
                   <p class="mb-3">
-                    Ever had a great oneliner that you can't recall? Fear no more, Wicked Oneliners is here! A platform
-                    where you add your oneliners and get likes from others.
-                    <br>
-                    <br>This is a little fun project i've made with
-                    <a
+                    A little fun project created with <a
                       href="https://vuejs.org/"
                       target="_blank"
                       class="link"
-                    >Vue&nbsp;js</a>.
-                    Feel free to create an account, add your own oneliners and like others. If you are interested in my code
-                    check out the project on github.
+                    >Vue</a> where users can create an account and share their favorite oneliners. Nothing too serious here though.
                   </p>
-                  <b-button
-                    @click="openUrlNewTab('https://wickedoneliners.nl/')"
-                    icon-left="earth"
-                  >Visit website</b-button>
-                  <b-button
-                    @click="openUrlNewTab('https://github.com/Nostramarkus/wickedoneliners/')"
-                    icon-left="github-circle"
-                  >View on github</b-button>
                 </div>
               </div>
               <div>
-                <nuxt-link to="/design-for-interior" class="mark-other-project">
+                <nuxt-link to="/streken" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/oyo-vacation-homes" class="mark-other-project float-right">
+                <nuxt-link to="/bresam-heftrucks" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

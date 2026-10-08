@@ -80,7 +80,7 @@
                       class="link"
                     >Belvilla</a>. An interesting project was a white label customer My Account environment.<br><br>
                     Vacation rental company Belvilla is owned by
-                    OYO&nbsp;Vacation&nbsp;Homes, besides Belvilla OYO owns other vacation rental company's like
+                    OYO&nbsp;Vacation&nbsp;Homes, besides Belvilla they own other vacation rental company's like
                     Dancenter,
                     Topic Travel,
                     Villa XL and
