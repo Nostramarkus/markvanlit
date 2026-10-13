@@ -96,7 +96,7 @@
                 <nuxt-link to="/printman" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
-                <nuxt-link to="/belvilla" class="mark-other-project float-right">
+                <nuxt-link to="/beddorama" class="mark-other-project float-right">
                   Next
                   <i class="fas fa-chevron-right"></i>
                 </nuxt-link>

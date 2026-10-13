@@ -328,47 +328,95 @@
         </div>
       </div>
       <br>
-      <div class="row mx-2 mx-md-5 mt-2">
-        <nuxt-link to="/villa-for-you" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-villa-for-you.svg" alt="Villa for You" class="img-fluid">
-          </div>
-        </nuxt-link>
-        <nuxt-link to="/myvilla" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-myvilla.svg" alt="MyVilla" class="img-fluid">
-          </div>
-        </nuxt-link>
-        <nuxt-link to="/widgets" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/project-widgets.svg" alt="Booking widgets" class="img-fluid">
-          </div>
-        </nuxt-link>
-        <nuxt-link to="/partou" class="col-lg-3 col-md-6">
-          <div class="view overlay zoom z-depth-1 project-item">
-            <img src="@/assets/img/wvhj.png" alt="Partou" class="wvhj">
-            <img src="@/assets/img/project-partou.svg" alt="Partou" class="img-fluid">
-          </div>
-        </nuxt-link>
+      <div class="container">
+        <div class="row mt-2">
+          <nuxt-link to="/villa-for-you" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-villa-for-you.svg" alt="Villa for You" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/myvilla" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-myvilla.svg" alt="MyVilla" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/widgets" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-widgets.svg" alt="Booking widgets" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/partou" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/wvhj.png" alt="Partou" class="wvhj">
+              <img src="@/assets/img/project-partou.svg" alt="Partou" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/printman" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-printman.svg" alt="Printman.group" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/cheflix" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-cheflix.svg" alt="Cheflix" class="img-fluid">
+            </div>
+          </nuxt-link>
+           <nuxt-link to="/beddorama" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-beddorama.svg" alt="Beddorama" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/belvilla" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-belvilla.svg" alt="Belvilla" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/taphuys" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-taphuys.svg" alt="'t Taphuys" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/dancenter" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-dancenter.svg" alt="Dancenter" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/renie-lamers" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-renie-lamers.svg" alt="Renie Lamers" class="img-fluid">
+            </div>
+          </nuxt-link>
+          <nuxt-link to="/oyo-vacation-homes" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-oyo-vacation-homes.svg" alt="OYO Vacation Homes" class="img-fluid">
+            </div>
+          </nuxt-link>
+        </div>
       </div>
-      <div class="row mx-2 mx-md-5 mt-2">
-        <nuxt-link to="/printman" class="col-lg-3 col-md-6">
+      
+      <!-- <div class="row mx-2 mx-md-5 mt-2">
+        <nuxt-link to="/design-for-interior" class="col-md-6 col-lg-4">
+            <div class="view overlay zoom z-depth-1 project-item">
+              <img src="@/assets/img/project-design-for-interior.svg" alt="Design for Interior" class="img-fluid">
+            </div>
+          </nuxt-link>
+        <nuxt-link to="/printman" class="col-md-6 col-lg-4">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-printman.svg" alt="Printman.group" class="img-fluid">
           </div>
         </nuxt-link>
-        <nuxt-link to="/cheflix" class="col-lg-3 col-md-6">
+        <nuxt-link to="/cheflix" class="col-md-6 col-lg-4">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-cheflix.svg" alt="Cheflix" class="img-fluid">
           </div>
         </nuxt-link>
         
-        <nuxt-link to="/belvilla" class="col-lg-3 col-md-6">
+        <nuxt-link to="/belvilla" class="col-md-6 col-lg-4">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-belvilla.svg" alt="Belvilla" class="img-fluid">
           </div>
         </nuxt-link>
-        <nuxt-link to="/taphuys" class="col-lg-3 col-md-6">
+        <nuxt-link to="/taphuys" class="col-md-6 col-lg-4">
           <div class="view overlay zoom z-depth-1 project-item">
             <img src="@/assets/img/project-taphuys.svg" alt="'t Taphuys" class="img-fluid">
           </div>
@@ -422,7 +470,7 @@
             <img src="@/assets/img/project-bresam-heftrucks.jpg" alt="Bresam Heftrucks" class="img-fluid">
           </div>
         </nuxt-link>
-      </div>
+      </div> -->
     </section>
 
     <div class="pb-5 pb-md-0" style="background-color: #f3f3f5;">

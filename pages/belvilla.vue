@@ -102,7 +102,7 @@
                 </div>
               </div>
               <div>
-                <nuxt-link to="/cheflix" class="mark-other-project">
+                <nuxt-link to="/beddorama" class="mark-other-project">
                   <i class="fas fa-chevron-left"></i>&nbsp;Prev.
                 </nuxt-link>
                 <nuxt-link to="/taphuys" class="mark-other-project float-right">
