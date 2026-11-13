@@ -34,9 +34,29 @@
               <div class="row pt-5">
                 <div class="col-lg-5 col-md-12">
                   <div class="d-flex justify-content-start">
-                    <h4 class="text-center text-uppercase mb-5">Enjoying the vue</h4>
+                    <h4 class="text-center text-uppercase mb-3">Profile</h4>
                   </div>
                   <p class="mb-3" align="left">
+                    I'm a passionate Senior Web Developer with 15+ years of experience
+                    building modern, high-quality web applications. With a strong background in
+                    both graphic design and development, I combine technical expertise with a
+                    keen eye for detail, usability and user experience.<br>
+                    <br>
+                    My main focus is front-end development, particularly with Vue.js, Nuxt and
+                    TypeScript, but I'm equally comfortable working on back-end functionality,
+                    APIs and database integrations. I enjoy creating clean, scalable and
+                    maintainable solutions, with a strong focus on performance, accessibility and
+                    SEO.<br>
+                    <br>
+                    Throughout my career, I've taken on both hands-on development and
+                    technical leadership roles, sharing knowledge, mentoring developers and
+                    helping teams improve their way of working.<br>
+                    <br>
+                    I'm curious by nature and always eager to explore new technologies. I
+                    actively embrace AI-assisted development to work smarter, solve problems
+                    and continuously improve the quality of my work.
+                  </p>
+                  <!-- <p class="mb-3" align="left">
                     I am a passionate web focused front-end developer with a background in 
                     graphic design and full-stack experience, from API's and databases to deployment. 
                     With over 20 years of experience I love to create anything from a small custom 
@@ -68,7 +88,7 @@
                     <br>
                     <br>Besides Vue i have experience working with similar frameworks like
                     Angular and React. I can handle them just fine, but when it's up to me, i'll bring Vue to the party.
-                  </p>
+                  </p> -->
                 </div>
                 <div class="col-lg-6 offset-lg-1 col-md-12 mb-5">
                   <div class="d-flex justify-content-start">
