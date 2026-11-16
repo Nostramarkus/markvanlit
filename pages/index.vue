@@ -343,7 +343,7 @@
       <div class="container">
         <div class="row mt-4">
           <div class="col-md-12">
-            <h2 class="text-uppercase text-center font-weight-bold my-4 pt-5">Some projects</h2>
+            <h2 class="text-uppercase text-center font-weight-bold my-4 pt-5">A few of my projects</h2>
             <hr class="mark-hr">
           </div>
         </div>
