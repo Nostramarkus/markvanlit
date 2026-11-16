@@ -42,11 +42,12 @@
                     both graphic design and development, I combine technical expertise with a
                     keen eye for detail, usability and user experience.<br>
                     <br>
-                    My main focus is front-end development, particularly with Vue.js, Nuxt and
+                    My main focus is front-end development, particularly with Vue, Nuxt and
                     TypeScript, but I'm equally comfortable working on back-end functionality,
-                    APIs and database integrations. I enjoy creating clean, scalable and
-                    maintainable solutions, with a strong focus on performance, accessibility and
-                    SEO.<br>
+                    building REST APIs and integrating databases. I also have experience with
+                    Symfony, enabling me to build robust back-end solutions and full-stack
+                    applications. I enjoy creating clean, scalable and maintainable solutions,
+                    with a strong focus on performance, accessibility and SEO.<br>
                     <br>
                     Throughout my career, I've taken on both hands-on development and
                     technical leadership roles, sharing knowledge, mentoring developers and
