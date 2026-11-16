@@ -12,7 +12,7 @@
                 <h1 class="mb-3 font-weight-bold text-white mark-van-lit">Mark van Lit</h1>
                 <h4
                   class="mb-0 text-uppercase font-weight-bold text-white front-end-dev"
-                >Front-end engineer</h4>
+                >Webdeveloper</h4>
               </u-animate>
             </u-animate-container>
           </div>
